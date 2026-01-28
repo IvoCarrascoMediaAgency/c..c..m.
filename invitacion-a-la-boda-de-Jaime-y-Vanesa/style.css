@@ -1,0 +1,357 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+/* // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name */
+
+/* .hahmlet-<uniquifier> {
+  font-family: "Hahmlet", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* .google-sans-<uniquifier> {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+} */
+
+.h1-boda {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+      font-size: 4em;
+}
+
+body{
+    
+    background-image:
+    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    url("img/flor-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.canva{
+     max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px; /* espacio lateral en móvil */
+  box-sizing: border-box;
+}
+
+
+
+@keyframes flotar {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.elemento-flotante {
+  animation: flotar 3s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.elemento-flotante:hover {
+  animation-play-state: paused;
+  transform: scale(1.05);
+}
+
+#gate.fade-out {
+  opacity: 0;
+  transform: scale(1.05);
+}
+
+ #gate{
+    position:fixed; inset:0; z-index:999999;
+    background:#ffffffd6;
+    display:grid; place-items:center;
+    text-align:center; cursor:pointer; user-select:none;
+      transition: opacity 0.8s ease, transform 0.8s ease;
+
+  }
+  #gate.fade-out {
+  opacity: 0;
+  transform: scale(1.05);
+}
+  #gate.hidden{opacity:0; pointer-events:none}
+  .card{
+    display:flex; flex-direction:column; align-items:center; gap:18px;
+    padding:24px 16px;
+  }
+  .logo{
+    width:min(220px,45vw); height:auto;
+    filter: drop-shadow(0 6px 18px rgba(0,0,0,.08));
+  }
+  /* TAMAÑO DEL LOGO SUPERIOR (el pequeño arriba):
+     Para hacerlo más grande: aumenta el valor de 264px (ej: 300px, 350px)
+     Para hacerlo más pequeño: reduce el valor de 264px (ej: 200px, 150px)
+  */
+  .logo.small{
+    width:min(130px,54vw); height:auto;
+  }
+  .h1-boda{
+     color:#ceb239;
+  }
+
+  .fecha{
+    color:#ceb239;
+    font-family:"Cormorant Garamond",serif;
+    letter-spacing:.35em;
+    font-size:clamp(12px,2.8vw,14px);
+    opacity:.9;
+  }
+  .arrows{
+    display:flex; flex-direction:column; gap:6px; align-items:center; margin-top:6px;
+  }
+  .arrow{
+    width:16px; height:16px;
+    border-right:2px solid #ceb239;
+    border-bottom:2px solid #ceb239;
+    transform:rotate(45deg);
+    animation:floatFade 1.6s infinite;
+  }
+  .arrows .arrow:nth-child(2){animation-delay:.2s}
+  .arrows .arrow:nth-child(3){animation-delay:.4s}
+  @keyframes floatFade{
+    0%{opacity:0; transform:translateY(-6px) rotate(45deg)}
+    40%{opacity:1}
+    100%{opacity:0; transform:translateY(6px) rotate(45deg)}
+  }
+  #overlay{
+    display:inline-block; padding:.9rem 1.4rem; border:2px solid 
+    #ceb239; border-radius:14px;
+    color:#ceb239; background:#fff; text-decoration:none;
+    font:500 16px/1.1 system-ui,-apple-system,sans-serif;
+    box-shadow:0 6px 24px rgba(0,0,0,.06);
+  }
+#overlay:hover{background:#ceb239; color:#fff;}
+
+ .h1-bodapre{
+max-width: 100%;
+margin: 0 auto;    color: #ceb239;
+    font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+ }
+ .portada{
+    height: 100vh;
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+  flex-direction: column;      /* elementos en columna */
+  align-items: center;         /* centra horizontal */
+  justify-content: center;     /* centra vertical */
+  text-align: center;
+ }
+
+ .dos,.fotouno{
+    width: 100%;
+        border-radius: 10px;
+        box-shadow: 10px 2px 25px -11px rgba(0, 0, 0, .8);
+ }
+
+ .invitacion{   display: flex;
+  flex-direction: column;      /* elementos en columna */
+  align-items: center;         /* centra horizontal */
+  justify-content: center;     /* centra vertical */
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.invitacion h2{
+font-family: "Hahmlet", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+   font-style: italic !important;
+
+    color: #6a6a6a;
+    margin: 0 0 30px 0;
+    line-height: 1.2;
+}
+
+
+ 
+
+.invitacion-texto{
+   font-family: "Google Sans", sans-serif;
+    font-size: 18px;
+    color: #7a7a7a;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.7;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    /* font-style: italic; */
+}
+
+
+
+
+
+
+
+
+
+
+    /* movil css */
+
+ @media (max-width: 768px) {
+  .canva {
+    max-width: 100%;
+    padding: 0 12px;
+   
+  }
+} 
+
+
+.disclaimer,
+.titu,
+span.cnt {
+    text-align: center;
+}
+
+
+.titu {
+    color: #33d670;
+    font-size: small;
+    margin-top: 5px;
+}
+.countf {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    
+}
+.countf p {
+    display: grid;
+    grid-row: auto;
+  margin: 0 10px;
+    color: #777;
+    background: #ceb239;
+    padding: 1px 3px 6px 3px;
+    border-style: none;
+    border-radius: 53px 53px 53px 53px;
+}
+.countf p span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pcount{
+        width: 75px;
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.pcount span{
+   
+    font-size:25px;
+    color: white;
+}
+
+.btn-calendario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     padding: 30px;
+}
+
+.btn-calendario a{
+  display: inline-flex;
+           align-items: center;
+           gap: 10px;
+           padding: 12px 30px;
+           background: white;
+           color: #666;
+           text-decoration: none;
+           font-family: "Google Sans", sans-serif;
+           border-radius: 8px;
+           font-size: 16px;
+           font-weight: 500;
+           transition: all 0.3s ease;
+            box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, .8); 
+}
+
+/* .btn-calendario a:hover{
+       
+} */
+.ceremonia {display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+padding: 40px 25px;}
+
+.ceremonia h2 {font-size: 26px;
+        letter-spacing: 6px;
+        margin-bottom: 35px;
+        font-family: "Google Sans", sans-serif;
+     font-weight: bold;
+     color: #4a4a4a;
+    }
+
+.ceremonia p {color: #7a7a7a;
+    font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 1.4;}    
+
+    .ceremonia img {       
+         margin-bottom: 30px;    
+      
+ 
+    font-weight: 300;}
+    .ceremonia small{margin:30px;    color: #5a5a5a; }
+
+    .ceremonia h3 {   
+        font-family: "Google Sans", sans-serif;
+        font-size: 2em;
+        margin:30px;    color: #5a5a5a;
+    }
+
+.ceremonia img {width: 150px;
+        height: 150px;
+    margin: 0 30px;}
+
+    .ceremonia span{font-size: smaller;}
+
+
+    .btn-ubicacion a{
+
+           display: inline-block;
+    padding: 12px 30px
+;
+    border: 2px solid #ceb239;
+    border-radius: 14px;
+        background: #ceb239;
+    color: #fff;
+    text-decoration: none;
+font-family: "Google Sans", sans-serif;    
+font-weight: 500;
+box-shadow: 0 6px 24px rgba(0, 0, 0, .06);
+        text-decoration: none;
+        transition: all 0.3s ease;
+    box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, .8);
+    }
+
