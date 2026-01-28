@@ -29,6 +29,7 @@
       font-size: 4em;
 }
 
+
 body{
     
     background-image:
@@ -107,9 +108,9 @@ body{
 
   .fecha{
     color:#ceb239;
-    font-family:"Cormorant Garamond",serif;
+    font-family: "Hahmlet", serif;
     letter-spacing:.35em;
-    font-size:clamp(12px,2.8vw,14px);
+    font-size:1em;
     opacity:.9;
   }
   .arrows{
@@ -141,6 +142,14 @@ body{
  .h1-bodapre{
 max-width: 100%;
 margin: 0 auto;    color: #ceb239;
+    font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+ }
+  .h1-bodapre2{
+max-width: 100%;
+margin: 0 auto;        color: #6a6a6a;
     font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
@@ -240,15 +249,17 @@ span.cnt {
     display: grid;
     grid-row: auto;
   margin: 0 10px;
-    color: #777;
+    /* color: #777; */
     background: #ceb239;
     padding: 1px 3px 6px 3px;
     border-style: none;
     border-radius: 53px 53px 53px 53px;
 }
+.countf p{font-family: "Google Sans", sans-serif;color: white !important;}
 .countf p span {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px;font-family: "Google Sans", sans-serif;
+    color: white !important;
 }
 
 .pcount{
@@ -302,6 +313,8 @@ span.cnt {
     align-items: center;
     justify-content: center;
     text-align: center;
+    max-width: 640px;
+    margin:  auto;
 padding: 40px 25px;}
 
 .ceremonia h2 {font-size: 26px;
@@ -315,6 +328,7 @@ padding: 40px 25px;}
 .ceremonia p {color: #7a7a7a;
     font-weight: 400;
     margin-bottom: 15px;
+    font-family: "Google Sans", sans-serif;
     line-height: 1.4;}    
 
     .ceremonia img {       
@@ -322,7 +336,7 @@ padding: 40px 25px;}
       
  
     font-weight: 300;}
-    .ceremonia small{margin:30px;    color: #5a5a5a; }
+    .ceremonia small{margin:30px;    color: #5a5a5a;font-family: "Google Sans", sans-serif; }
 
     .ceremonia h3 {   
         font-family: "Google Sans", sans-serif;
@@ -334,7 +348,7 @@ padding: 40px 25px;}
         height: 150px;
     margin: 0 30px;}
 
-    .ceremonia span{font-size: smaller;}
+    .ceremonia span{font-size: smaller;font-family: "Google Sans", sans-serif;}
 
 
     .btn-ubicacion a{
@@ -355,3 +369,298 @@ box-shadow: 0 6px 24px rgba(0, 0, 0, .06);
     box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, .8);
     }
 
+   .galeria {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  gap: 15px;
+}
+
+.galeria img {
+  width: 50%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .galeria {
+    flex-direction: column;
+  }
+
+  .galeria img {
+    width: 100%;
+  }
+}
+/* ===== BASE ===== */
+.itinerario {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  align-items:baseline;
+     font-family: "Google Sans", sans-serif;
+}
+
+.item {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+.item img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.linea {
+  display: block;
+  width: 70%;
+  height: 2px;
+  background: #ceb239;
+  margin: 0 auto 15px;
+}
+
+.item h3 {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 6px;
+  font-family: "Google Sans", sans-serif;
+}
+
+.item p {
+  font-size: 15px;
+  color: #888;
+  font-family: "Google Sans", sans-serif;
+}
+
+
+
+h2.itinerarioh2
+ {
+   color: #ceb239;
+  
+      letter-spacing: 6px;
+        margin-bottom: 35px;
+        font-family: "Google Sans", sans-serif;
+     font-weight: bold;
+      text-align: center;
+      margin-top: 30px;
+}
+/* ===== ESCRITORIO (HORIZONTAL) ===== */
+@media (min-width: 769px) {
+  .itinerario {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    
+  }
+}
+
+/* ===== MÓVIL (VERTICAL TIMELINE) ===== */
+@media (max-width: 768px) {
+  .itinerario {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    padding-left: 45px;
+    align-items: center;
+            justify-items: center;
+  }
+
+  /* Línea vertical */
+  .itinerario::before {
+    content: "";
+    position: absolute;
+    left: 58px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #ceb239;
+  }
+
+  .item {
+   display: grid;
+  grid-template-columns: 80px 1fr;
+  column-gap: 15px;
+  justify-items: center;
+  align-items: end;
+  }
+
+  /* Punto verde */
+  .item::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #ceb239;
+    border-radius: 50%;
+    position: absolute;
+    left: -33px;
+    top: 30px;
+  }
+
+  .item img {
+    width: 65px;
+    margin: 0;
+  }
+
+  .linea {
+    display: none;
+  }
+
+  .item h3 {
+    font-size: 16px;
+    font-family: "Google Sans", sans-serif;
+  }
+
+  .item p {
+    font-size: 14px;
+    font-family: "Google Sans", sans-serif;
+  }
+  
+}
+
+.container {
+            width: 100%;
+            max-width: 450px;
+        }
+
+        .btn-toggle {
+               display: inline-block;
+    padding: 12px 30px;
+    border: 2px solid #ceb239;
+    border-radius: 14px;
+    background: #ceb239;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 500;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, .06);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, .8);
+        }
+
+        .btn-toggle:hover {
+            background: #ceb239;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn-toggle:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .bank-data {
+            background: white;
+            border-radius: 8px;
+            padding: 24px;
+            margin-top: 20px;
+            box-shadow: 10px 2px 25px -11px rgba(0, 0, 0, .8);
+            display: none;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        .bank-data.show {
+            display: block;
+        }
+
+        .data-label,.data-value{ font-family: "Google Sans", sans-serif;
+        
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .data-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .data-item:last-child {
+            border-bottom: none;
+        }
+
+        .data-label {
+            color: #666;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .data-value {
+            color: #333;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        form {
+
+    margin: 0 auto;
+    max-width: 400px;
+    overflow: hidden;
+    height: 100%;
+    display: grid;
+    align-content: center;
+    background: rgba(255, 255, 255, .3);
+    margin-top: 10px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 3px;
+    background: rgb(208 211 37 / 10%);
+    border: 1px solid #ceb239;
+    -webkit-appearance: none;
+}
+
+#boton {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 2px solid #ceb239;
+    border-radius: 14px;
+    background: #ceb239;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 500;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, .06);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 10px 10px 34px -11px rgba(0, 0, 0,)
+}
+.img5{
+  width: 100%;
+}
+footer{
+  margin: 30px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+}
+footer span{ 
+  color: #6a6a6a;
+   font-family: "Google Sans", sans-serif;
+
+}
+
+.afooter{
+  text-decoration: none;
+  color: black;
+   font-family: "Google Sans", sans-serif;
+   font-weight: bold;
+
+}
