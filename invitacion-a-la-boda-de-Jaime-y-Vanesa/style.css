@@ -249,18 +249,23 @@ span.cnt {
     display: grid;
     grid-row: auto;
   margin: 0 10px;
-    /* color: #777; */
-    background: #ceb239;
+  
     padding: 1px 3px 6px 3px;
-    border-style: none;
-    border-radius: 53px 53px 53px 53px;
+    font-family: "Hahmlet", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+
+    color: #6a6a6a;
+    margin: 0 0 30px 0;
+    line-height: 1.2;
 }
-.countf p{font-family: "Google Sans", sans-serif;color: white !important;}
+/* .countf p{font-family: "Google Sans", sans-serif;color: white !important;}
 .countf p span {
     margin-top: 10px;
     margin-bottom: 10px;font-family: "Google Sans", sans-serif;
     color: white !important;
-}
+} */
 
 .pcount{
         width: 75px;
@@ -277,7 +282,7 @@ span.cnt {
 .pcount span{
    
     font-size:25px;
-    color: white;
+    /* color: white; */
 }
 
 .btn-calendario {
@@ -287,6 +292,7 @@ span.cnt {
     justify-content: center;
     text-align: center;
      padding: 30px;
+     margin-bottom: 50px;
 }
 
 .btn-calendario a{
@@ -336,7 +342,7 @@ padding: 40px 25px;}
       
  
     font-weight: 300;}
-    .ceremonia small{margin:30px;    color: #5a5a5a;font-family: "Google Sans", sans-serif; }
+    .ceremonia small{margin:20px;    color: #5a5a5a;font-family: "Google Sans", sans-serif; }
 
     .ceremonia h3 {   
         font-family: "Google Sans", sans-serif;
@@ -356,9 +362,9 @@ padding: 40px 25px;}
            display: inline-block;
     padding: 12px 30px
 ;
-    border: 2px solid #ceb239;
+    border: 2px solid #7d9482;
     border-radius: 14px;
-        background: #ceb239;
+        background: #7d9482;
     color: #fff;
     text-decoration: none;
 font-family: "Google Sans", sans-serif;    
@@ -370,10 +376,13 @@ box-shadow: 0 6px 24px rgba(0, 0, 0, .06);
     }
 
    .galeria {
-  max-width: 900px;
-  margin: auto;
-  display: flex;
-  gap: 15px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+.imgramo img{
+  display: grid;
+  width: 100%;
 }
 
 .galeria img {
@@ -393,17 +402,46 @@ box-shadow: 0 6px 24px rgba(0, 0, 0, .06);
     width: 100%;
   }
 }
+
+
+
+.colrex {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.colrex .imx{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+/* background: red; */
+display: grid;
+grid-gap: 0px;
+border: 1px solid #7a7a7a;
+
+
+
+}
+
+ spam.imx1{background: #fdf7eb}
+ spam.imx2{background: #7d9482}
+ spam.imx3{background: #f0bea5}
+ spam.imx4{background: #d0997b}
+
 /* ===== BASE ===== */
 .itinerario {
   max-width: 1200px;
-  margin: 80px auto;
+  margin-top:50px ;
   padding: 0 20px;
   align-items:baseline;
      font-family: "Google Sans", sans-serif;
 }
 
 .item {
-  text-align: center;
   font-family: "Playfair Display", serif;
 }
 
@@ -460,12 +498,12 @@ h2.itinerarioh2
 @media (max-width: 768px) {
   .itinerario {
     position: relative;
-    display: grid;
-    grid-template-columns: 1fr;
+   
+  
     row-gap: 50px;
     padding-left: 45px;
-    align-items: center;
-            justify-items: center;
+    
+    
   }
 
   /* Línea vertical */
@@ -481,11 +519,17 @@ h2.itinerarioh2
 
   .item {
    display: grid;
-  grid-template-columns: 80px 1fr;
+  grid-template-columns: 50% 50%;
   column-gap: 15px;
-  justify-items: center;
-  align-items: end;
+  margin-bottom: 50px;
+ 
+  
   }
+  .imgiteg2 {
+    display: grid;
+    justify-items: center;
+}
+
 
   /* Punto verde */
   .item::before {
@@ -528,9 +572,9 @@ h2.itinerarioh2
         .btn-toggle {
                display: inline-block;
     padding: 12px 30px;
-    border: 2px solid #ceb239;
+    border: 2px solid #7d9482;
     border-radius: 14px;
-    background: #ceb239;
+    background: #7d9482;
     color: #fff;
     text-decoration: none;
     font-family: "Google Sans", sans-serif;
@@ -541,8 +585,53 @@ h2.itinerarioh2
     box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, .8);
         }
 
+.radio-opcion {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin: 6px 0;
+    position: relative;
+}
+
+/* Ocultamos el radio real */
+.radio-opcion input {
+    position: absolute;
+    opacity: 0;
+}
+
+.pases{
+  display:grid;
+  grid-template-columns: auto auto auto;
+
+
+
+  }
+
+
+  .h2footer{
+    font-family: "Great Vibes", cursive !important;
+  }
+  .iniciales{
+    max-width: 100px;
+    margin-top: 30px;
+  }
+
+/* Cuadro visible */
+.custom-radio {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #f0bea5; /* dorado */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* 🔥 CUANDO ESTÁ SELECCIONADO */
+.radio-opcion input:checked + .custom-radio {
+    background-color: #f0bea5; /* relleno */
+}
         .btn-toggle:hover {
-            background: #ceb239;
+            background: #7d9482;
             transform: translateY(-2px);
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
         }
@@ -623,16 +712,16 @@ input {
     font-size: 1em;
     border-radius: 3px;
     background: rgb(208 211 37 / 10%);
-    border: 1px solid #ceb239;
+    border: 1px solid #f0bea5;
     -webkit-appearance: none;
 }
 
 #boton {
     display: inline-block;
     padding: 12px 30px;
-    border: 2px solid #ceb239;
+    border: 2px solid #f0bea5;
     border-radius: 14px;
-    background: #ceb239;
+    background: #f0bea5;
     color: #fff;
     text-decoration: none;
     font-family: "Google Sans", sans-serif;

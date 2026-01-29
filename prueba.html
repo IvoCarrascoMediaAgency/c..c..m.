@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Estás invitado!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8edf3 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .message {
+            color: #666;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .time-unit {
+            background: linear-gradient(135deg, #d4af37 0%, #c9a832 100%);
+            color: white;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+        }
+
+        .time-value {
+            font-size: 2em;
+            font-weight: bold;
+            line-height: 1;
+        }
+
+        .time-label {
+            font-size: 0.75em;
+            margin-top: 5px;
+            opacity: 0.9;
+        }
+
+        .calendar-button {
+            background: white;
+            color: #333;
+            border: 2px solid #e0e0e0;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1em;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+        }
+
+        .calendar-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            border-color: #d4af37;
+        }
+
+        .calendar-button:active {
+            transform: translateY(0);
+        }
+
+        .calendar-icon {
+            width: 20px;
+            height: 20px;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .time-unit {
+                width: 70px;
+                height: 70px;
+            }
+
+            .time-value {
+                font-size: 1.7em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Estás invitado!</h1>
+        
+        <p class="message">
+            Nos encantaría que seas parte de este momento tan especial para nosotros. ¡Falta poco!
+        </p>
+
+        <div class="countdown">
+            <div class="time-unit">
+                <div class="time-value" id="days">136</div>
+                <div class="time-label">Días</div>
+            </div>
+            <div class="time-unit">
+                <div class="time-value" id="hours">07</div>
+                <div class="time-label">Horas</div>
+            </div>
+            <div class="time-unit">
+                <div class="time-value" id="minutes">39</div>
+                <div class="time-label">Mins.</div>
+            </div>
+            <div class="time-unit">
+                <div class="time-value" id="seconds">22</div>
+                <div class="time-label">Seg.</div>
+            </div>
+        </div>
+
+        <button class="calendar-button" onclick="addToCalendar()">
+            <svg class="calendar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            Agendar Recordatorio
+        </button>
+    </div>
+
+    <script>
+        // Configura aquí la fecha de tu evento
+        // Formato: Año, Mes (0-11), Día, Hora, Minuto
+        const eventDate = new Date(2026, 5, 13, 18, 0); // Ejemplo: 13 de junio de 2026 a las 6:00 PM
+        
+        // Información del evento
+        const eventInfo = {
+            title: "Evento Especial",
+            description: "Nos encantaría que seas parte de este momento tan especial para nosotros.",
+            location: "Lugar del evento", // Cambia esto
+            duration: 4 // Duración en horas
+        };
+
+        // Actualizar contador
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = eventDate.getTime() - now;
+
+            if (distance < 0) {
+                document.querySelector('.countdown').innerHTML = '<p style="color: #d4af37; font-size: 1.5em;">¡El evento ha comenzado!</p>';
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById('days').textContent = days;
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+
+        // Función para formatear fecha en formato iCalendar
+        function formatDate(date) {
+            return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+        }
+
+        // Función para crear archivo .ics
+        function addToCalendar() {
+            const startDate = eventDate;
+            const endDate = new Date(eventDate.getTime() + eventInfo.duration * 60 * 60 * 1000);
+
+            const icsContent = [
+                'BEGIN:VCALENDAR',
+                'VERSION:2.0',
+                'PRODID:-//Invitación//ES',
+                'CALSCALE:GREGORIAN',
+                'METHOD:PUBLISH',
+                'BEGIN:VEVENT',
+                'DTSTART:' + formatDate(startDate),
+                'DTEND:' + formatDate(endDate),
+                'SUMMARY:' + eventInfo.title,
+                'DESCRIPTION:' + eventInfo.description,
+                'LOCATION:' + eventInfo.location,
+                'STATUS:CONFIRMED',
+                'SEQUENCE:0',
+                'BEGIN:VALARM',
+                'TRIGGER:-PT24H',
+                'ACTION:DISPLAY',
+                'DESCRIPTION:Recordatorio del evento',
+                'END:VALARM',
+                'END:VEVENT',
+                'END:VCALENDAR'
+            ].join('\r\n');
+
+            // Crear blob y descargar
+            const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+            const link = document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            link.setAttribute('download', 'evento.ics');
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Iniciar contador
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>
