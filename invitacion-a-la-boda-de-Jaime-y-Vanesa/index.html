@@ -47,8 +47,6 @@
 
 
 
-
-
    
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,19 +54,41 @@
 <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.3/mobile-detect.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.13.0/lottie.min.js" integrity="sha512-uOtp2vx2X/5+tLBEf5UoQyqwAkFZJBM5XwGa7BfXDnWR+wdpRvlSVzaIVcRe3tGNsStu6UMDCeXKEnr4IBT8gA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 <script src="jyv.js"></script>
-    <title>Document</title>
+<script src="lottie.min.js"></script>
+<script src="jyv_script.min.js"></script>
+    <title>Invitación a la Boda de Vanessa &amp; Jaime &#8211; Oficial - </title>
 </head>
 <body>
+
+
     <div class="canva">
 
-    
+  
 
-<div id="gate" role="dialog" aria-label="Ingresar a mi invitación">
-  <div class="card">
+
+<div id="portal" role="dialog" aria-label="Ingresar a mi invitación">
+  
+  <div id="animacionsobre" class="btn" class="envelope-container">
+    <div class="textosobre">
+      <span class="span1textinvi">Esta invitación es</span>
+      <span class="span2textinvi">exclusiva para ti</span>
+    </div>
+    <div class="haciaarriba" id="haciaarriba">
+      <img decoding="async"  src="img/jyv-sobrefull.webp" >
+    </div>
+    <div class="haciaabajo">
+  <img decoding="async"  src="img/sobrebajo.webp" >
+    </div>
+    
+    <div  class="abrirsobre">TOCA PARA ABRIR</div>
+  </div>
+  
+  
+    <!-- <div class="card"> -->
     <!-- <img decoding="async" class="logo small" alt="Monograma" src="https://invitartes.com/wp-content/uploads/2026/01/MIF-01.svg"> -->
-    <h1 class="h1-bodapre">Vanessa & Jaime</h1>
+    <!-- <h1 class="h1-bodapre">Vanessa & Jaime</h1>
  <div class="fecha"> Junio 13 2026</div>
     
     <div class="arrows">
@@ -76,16 +96,16 @@
       <span class="arrow"></span>
       <span class="arrow"></span>
     </div>
-<button id="overlay" class="btn">
+<button id="animacionsobre" class="btn">
   Ingresar a mi invitación 
 </button>  
-</div>
-</div>
+</div>-->
+</div> 
 <!-- end gate -->
 
 
     <div class="portada">
-       <audio id="player" preload="metadata">
+       <audio id="music" preload="metadata">
   <source src="mp3/jaimeyvaneboda.mp3" type="audio/mpeg">
   <source src="mp3/jaimeyvaneboda.ogg" type="audio/ogg">
 </audio>
@@ -135,14 +155,14 @@
 </div>
 <!-- ]end calendario -->
 
-<div class="fotosjyv">
+<!-- <div class="fotosjyv">
  <div class="galeria">
   <img class="fotouno" src="img/2.jpeg" alt="Foto 1">
   <img class="fotouno" src="img/4.jpeg" alt="Foto 2">
-</div>
+</div> -->
 
 <div class="imgramo">
-    <img src="img/ramo de flores.png" alt="" srcset="">
+    <img src="img/ramo de flores.webp" alt="" srcset="">
 </div>
 </div>
 <!-- end fotos  -->
@@ -150,7 +170,7 @@
 <div class="ceremonia">
 
     <img src="img/ceremonia.svg" alt="" srcset="">
-
+<!-- ⛪ -->
     <h2>CEREMONIA</h2>
     <p>Dirección: Villa Las Paulitas</p>
     <p>Hora: 16:00 pm</p>
@@ -164,7 +184,7 @@
         <spam class="imx imx4"></spam>
     </div>
 
-<div class="btn-ubicacion"><a href="https://www.google.com/maps/place/Villa+Las+Paulitas/@-0.0630868,-78.4594984,707m/data=!3m2!1e3!4b1!4m6!3m5!1s0x91d588b9ea33577f:0x6b1704bc35ea4ad1!8m2!3d-0.0630922!4d-78.4569235!16s%2Fg%2F11c0qyqss3?entry=ttu&g_ep=EgoyMDI2MDEyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Ver Ubicación</a>
+<!-- <div class="btn-ubicacion"><a href="https://www.google.com/maps/place/Villa+Las+Paulitas/@-0.0630868,-78.4594984,707m/data=!3m2!1e3!4b1!4m6!3m5!1s0x91d588b9ea33577f:0x6b1704bc35ea4ad1!8m2!3d-0.0630922!4d-78.4569235!16s%2Fg%2F11c0qyqss3?entry=ttu&g_ep=EgoyMDI2MDEyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Ver Ubicación</a> -->
 
 </div>
     
@@ -183,11 +203,41 @@
     <h3> 13 JUN | 14:00 <span>P.M.</span></h3>  -->
 
 <div class="btn-ubicacion"><a href="https://www.google.com/maps/place/Villa+Las+Paulitas/@-0.0630868,-78.4594984,707m/data=!3m2!1e3!4b1!4m6!3m5!1s0x91d588b9ea33577f:0x6b1704bc35ea4ad1!8m2!3d-0.0630922!4d-78.4569235!16s%2Fg%2F11c0qyqss3?entry=ttu&g_ep=EgoyMDI2MDEyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Ver Ubicación</a>
-
+<br>
+<br>
+  <small><em>*La ceremonia comenzará en punto. Les agradecemos su puntualidad</em></small>
 </div>
     
 </div>
 <!-- end recepcion -->
+
+
+<div class="pases">
+  <div class="invitation-card">
+    <!-- Caja del pase -->
+    <div class="pass-box">
+        <!-- Nombre del invitado -->
+        <h1 class="invitado">Srta. María de los Ángeles</h1>
+
+        <!-- Texto "Hemos reservado" -->
+        <p class="reserved-text">Hemos reservado</p>
+
+        <!-- Contenedor del pase -->
+        <div class="pass-container">
+            <div class="passesfull">1</div>
+            <div class="pass-text">PASE</div>
+        </div>
+
+        <!-- Texto "en su honor" -->
+        <p class="honor-text">en su honor</p>
+    </div>
+    <br>
+<br>
+<small><em>*La presente invitación es de carácter exclusivo para las personas incluidas en la lista de invitados.</em></small>
+
+</div>
+
+</div>
 
 <!-- <div class="ceremonia">
 
@@ -204,6 +254,19 @@
     
 </div>
 <!-- end vestimenta -->
+
+
+<div class="fotos">
+
+  <img src="img/11.webp" alt="" class="fotosnuv1">
+
+  <div class="fotosnuv2">
+<img src="img/22.webp" alt="" class="fotosnuv">
+  <img src="img/33.webp" alt="" class="fotosnuv">
+  </div>
+  
+  <img src="img/44.webp" alt="" class="fotosnuv1">
+</div>
 
 <!-- <div class="fotosjyv">
  <div class="galeria">
@@ -322,18 +385,24 @@
 
             <div class="data-item">
                 <div class="data-label">Titular:</div>
-                <div class="data-value">Jaime Thomas</div>
+                <div class="data-value">Jaime Carrasco</div>
+            </div>
+             <div class="data-item">
+                <div class="data-label">Cta de ahorros:</div>
+                <div class="data-value">2215405891</div>
             </div>
 
             <div class="data-item">
                 <div class="data-label">C.I.:</div>
-                <div class="data-value">09345345435435</div>
+                <div class="data-value">0802819863</div>
             </div>
 
             <div class="data-item">
-                <div class="data-label">Cta de ahorros:</div>
-                <div class="data-value">2XXXXXXXXXXXX</div>
+                <div class="data-label">Correro:</div>
+                <div class="data-value">jrcc140798@hotmail.com</div>
             </div>
+
+            
         </div>
     </div>
 
@@ -350,13 +419,11 @@
     <!-- <small>¡Luce tu mejor look!</small> -->
     <!-- <h3> 13 JUN | 14:00 <span>P.M.</span></h3>  -->
 <!-- <div class="btn-ubicacion"><a href="https://www.google.com/maps/place/Villa+Las+Paulitas/@-0.0630868,-78.4594984,707m/data=!3m2!1e3!4b1!4m6!3m5!1s0x91d588b9ea33577f:0x6b1704bc35ea4ad1!8m2!3d-0.0630922!4d-78.4569235!16s%2Fg%2F11c0qyqss3?entry=ttu&g_ep=EgoyMDI2MDEyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Ver Ubicación</a> -->
-<div class="form" id="contacto">
-<!-- https://docs.google.com/forms/d/e/1FAIpQLScH1R249Y8bTUU0dIrornkwVtYZdP06fvX3t91l4V-e5sHu1g/viewform?usp=pp_url&entry.1203511507=sdsds&entry.2144876583=3  -->
+<!-- <div class="form" id="contacto">
                     <form id="gform" name="gform" target="hidden_iframe"
       onsubmit="submitted=true;"
       action="https://docs.google.com/forms/d/e/1FAIpQLScH1R249Y8bTUU0dIrornkwVtYZdP06fvX3t91l4V-e5sHu1g/formResponse?">
 
-    <!-- Nombre -->
     <label for="entry.1203511507"></label>
     <input type="text"
            name="entry.1203511507"
@@ -364,7 +431,6 @@
            placeholder="Nombre y Apellido"
            required>
 
-    <!-- Número de pases (opción múltiple) -->
      <span>Número de pases:</span>
      <div class="pases">
 
@@ -388,7 +454,7 @@
 </label>
 </div>
 
-    <!-- Botón -->
+ 
     <label for="boton" id="enviarwa" class="enviarwa"></label>
     <input id="boton"
            type="submit"
@@ -401,11 +467,26 @@
                     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){}"></iframe>
             
             
-            </div>
+            </div> -->
+            <form id="gform" name="gform" target="hidden_iframe"
+      onsubmit="submitted=true; goToPage(); return true;"
+      action="https://docs.google.com/forms/d/e/1FAIpQLScH1R249Y8bTUU0dIrornkwVtYZdP06fvX3t91l4V-e5sHu1g/formResponse?">
 
+    <input type="hidden" name="entry.1203511507" id="entry.1203511507">
+    <input type="hidden" name="entry.2144876583" id="entry.2144876583">
 
-</div>
+    <input id="boton"
+           type="submit"
+           class="sumitb"
+           value="Confirmar Asistencia">
+</form>
+
+<br>
+<small><em>*Agradecemos confirmar su asistencia antes del
+1 de abril de 2026</em></small>
     
+</div>
+
 </div>
 <!-- end confirmar asistencia -->
 
@@ -422,7 +503,7 @@
    
 
 </div>
- <img class="img5" src="img/5.jpeg" alt="" srcset="">
+ <!-- <img class="img5" src="img/5.jpeg" alt="" srcset=""> -->
 
 
 
