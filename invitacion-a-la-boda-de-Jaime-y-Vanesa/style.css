@@ -106,6 +106,10 @@ body{
      color:#ceb239;
   }
 
+  .gform{
+
+  }
+
   .fecha{
     color:#ceb239;
     font-family: "Hahmlet", serif;
@@ -320,8 +324,19 @@ span.cnt {
     justify-content: center;
     text-align: center;
     max-width: 640px;
-    margin:  auto;
+ 
+ margin: 40px auto;;
+
 padding: 40px 25px;}
+
+.ceremonia + .invitacion {
+    margin-top: 60px;
+}
+
+/* .invitacion-final {
+    margin-top: 80px !important;
+    padding-top: 40px;
+} */
 
 .ceremonia h2 {font-size: 26px;
         letter-spacing: 6px;
@@ -732,7 +747,7 @@ input {
     border-radius: 3px;
     background: rgb(208 211 37 / 10%);
     border: 1px solid #efbfbb;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
 }
 .fotos {
     
@@ -788,25 +803,6 @@ img.fotosnuv {
 }
 .img5{
   width: 100%;
-}
-footer{
-  margin: 30px;
-  display: grid;
-  grid-template-rows: auto auto auto;
-  text-align: center;
-}
-footer span{ 
-  color: #6a6a6a;
-   font-family: "Google Sans", sans-serif;
-
-}
-
-.afooter{
-  text-decoration: none;
-  color: black;
-   font-family: "Google Sans", sans-serif;
-   font-weight: bold;
-
 }
 
 
@@ -1315,4 +1311,64 @@ footer span{
 
 .close-modal:hover {
   background: #e0e0e0;
+}
+footer{
+  margin: 30px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+}
+footer span{ 
+  color: #6a6a6a;
+   font-family: "Google Sans", sans-serif;
+
+}
+
+.afooter{
+  text-decoration: none;
+  color: black;
+   font-family: "Google Sans", sans-serif;
+   font-weight: bold;
+
+}
+/* .ceremonia + .invitacion {
+    margin-top: 60px;
+} */
+
+.ceremonia2{
+display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 640px;
+ 
+ margin: 40px auto;;
+
+padding: 40px 25px;
+
+}
+.ceremonia2 h2{
+  font-size: 26px;
+        letter-spacing: 6px;
+        margin-bottom: 35px;
+        font-family: "Google Sans", sans-serif;
+     font-weight: bold;
+     color: #4a4a4a;
+
+}
+
+.ceremonia2 p {color: #7a7a7a;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: "Google Sans", sans-serif;
+    line-height: 1.4;} 
+    .ceremonia2 small{margin:20px;    color: #5a5a5a;font-family: "Google Sans", sans-serif; }
+
+.pgracias {
+    color: #556B2F; /* verde oliva */
+    font-family: "Google Sans", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
 }
