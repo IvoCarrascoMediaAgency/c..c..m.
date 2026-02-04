@@ -1,1 +1,751 @@
-const _0x23afaa=_0x5bc2;(function(_0x1c7145,_0x221e67){const _0xf58c3d=_0x5bc2,_0x3d1fe4=_0x1c7145();while(!![]){try{const _0x5d17da=-parseInt(_0xf58c3d(0x118))/0x1+parseInt(_0xf58c3d(0xf2))/0x2*(parseInt(_0xf58c3d(0x147))/0x3)+parseInt(_0xf58c3d(0x108))/0x4+-parseInt(_0xf58c3d(0x158))/0x5+parseInt(_0xf58c3d(0x13b))/0x6+parseInt(_0xf58c3d(0xef))/0x7*(parseInt(_0xf58c3d(0x133))/0x8)+-parseInt(_0xf58c3d(0x12b))/0x9;if(_0x5d17da===_0x221e67)break;else _0x3d1fe4['push'](_0x3d1fe4['shift']());}catch(_0x1864f4){_0x3d1fe4['push'](_0x3d1fe4['shift']());}}}(_0x4e0a,0xc508a),document[_0x23afaa(0x13c)]('DOMContentLoaded',()=>{const _0x9c00a=_0x23afaa,_0x220ee9=document[_0x9c00a(0x141)](_0x9c00a(0x13d)),_0x546e60=document[_0x9c00a(0x141)](_0x9c00a(0x112)),_0x57d107=document[_0x9c00a(0x141)]('portal');if(!_0x220ee9||!_0x546e60||!_0x57d107)return;_0x546e60[_0x9c00a(0x152)]=_0x9c00a(0xf0),_0x546e60['volume']=0.7;let _0x19c5ff=![];const _0x5142f4=async _0x49c5f9=>{const _0x46ac65=_0x9c00a;_0x49c5f9[_0x46ac65(0x140)](),_0x49c5f9['stopPropagation']();if(_0x19c5ff)return;_0x19c5ff=!![],_0x220ee9['style'][_0x46ac65(0x12c)]=_0x46ac65(0x11e),_0x220ee9[_0x46ac65(0x10c)][_0x46ac65(0x150)]=_0x46ac65(0xf1);try{_0x546e60[_0x46ac65(0x10b)]=0x0,_0x546e60[_0x46ac65(0x131)]=![],_0x546e60[_0x46ac65(0x13f)](),await new Promise(_0x1f6bff=>setTimeout(_0x1f6bff,0x32)),await _0x546e60['play'](),console[_0x46ac65(0x128)](_0x46ac65(0x101));}catch(_0x4b8d1e){console[_0x46ac65(0x11a)](_0x46ac65(0x109),_0x4b8d1e[_0x46ac65(0x144)]);try{await _0x546e60['play']();}catch(_0x59bfc2){console[_0x46ac65(0x11a)](_0x46ac65(0x124),_0x59bfc2[_0x46ac65(0x144)]),_0x481f72();}}_0x57d107[_0x46ac65(0x134)]['add']('fade-out'),navigator[_0x46ac65(0x12d)]&&navigator[_0x46ac65(0x12d)](0x32),setTimeout(()=>{const _0x47e98b=_0x46ac65;_0x57d107[_0x47e98b(0x10c)]['display']=_0x47e98b(0x11e),_0x57d107[_0x47e98b(0x114)]();},0x320);},_0x481f72=()=>{const _0x15d5df=_0x9c00a;if(!_0x546e60['paused'])return;const _0x5b1ed2=document[_0x15d5df(0xfc)]('button');_0x5b1ed2[_0x15d5df(0x11d)]=_0x15d5df(0x11c),_0x5b1ed2[_0x15d5df(0x10c)][_0x15d5df(0x129)]=_0x15d5df(0x135);const _0x1eed99=document[_0x15d5df(0xfc)](_0x15d5df(0x10c));_0x1eed99[_0x15d5df(0x12e)]='\x0a\x20\x20\x20\x20\x20\x20@keyframes\x20pulse\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x200%,\x20100%\x20{\x20transform:\x20translateX(-50%)\x20scale(1);\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x2050%\x20{\x20transform:\x20translateX(-50%)\x20scale(1.08);\x20}\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20',document[_0x15d5df(0x154)][_0x15d5df(0x126)](_0x1eed99),_0x5b1ed2['addEventListener']('click',async()=>{const _0x10c60f=_0x15d5df;try{_0x546e60[_0x10c60f(0x13f)](),await _0x546e60[_0x10c60f(0x117)](),_0x5b1ed2[_0x10c60f(0x10c)]['opacity']='0',_0x5b1ed2[_0x10c60f(0x10c)][_0x10c60f(0xfb)]=_0x10c60f(0x10e),_0x5b1ed2[_0x10c60f(0x10c)][_0x10c60f(0xfd)]='all\x200.3s\x20ease',setTimeout(()=>_0x5b1ed2[_0x10c60f(0x114)](),0x12c);}catch(_0x313982){_0x5b1ed2[_0x10c60f(0x12e)]='❌\x20No\x20se\x20pudo\x20reproducir',_0x5b1ed2[_0x10c60f(0x10c)]['background']=_0x10c60f(0x138);}},{'once':!![]}),document[_0x15d5df(0xf7)]['appendChild'](_0x5b1ed2);};_0x220ee9[_0x9c00a(0x13c)](_0x9c00a(0x100),_0x5142f4,{'once':!![]}),_0x220ee9[_0x9c00a(0x13c)](_0x9c00a(0x14c),_0x1bb757=>{const _0x26c065=_0x9c00a;(_0x1bb757['key']===_0x26c065(0x121)||_0x1bb757[_0x26c065(0xf3)]==='\x20')&&_0x5142f4(_0x1bb757);},{'once':!![]}),console[_0x9c00a(0x128)](_0x9c00a(0x104)),console['log']('📱\x20Dispositivo:',/iPhone|iPad|iPod|Android/i[_0x9c00a(0x106)](navigator[_0x9c00a(0xff)])?_0x9c00a(0x111):_0x9c00a(0x12a));}),(function(){'use strict';const _0xd44f37=_0x23afaa;const _0x58cbf0=_0x57180a=>{const _0x4be084=_0x5bc2,_0x59714d=new Date(),_0x18c73d=Math[_0x4be084(0xfa)]((new Date(_0x57180a)-_0x59714d)/0x3e8,0x0),_0x1bf28e=('0'+Math[_0x4be084(0x123)](_0x18c73d%0x3c))[_0x4be084(0x156)](-0x2),_0x3cbde4=('0'+Math['floor'](_0x18c73d/0x3c%0x3c))[_0x4be084(0x156)](-0x2),_0x15116b=('0'+Math[_0x4be084(0x123)](_0x18c73d/0xe10%0x18))['slice'](-0x2),_0x4d3103=Math[_0x4be084(0x123)](_0x18c73d/(0xe10*0x18));return{'remainSeconds':_0x1bf28e,'remainMinutes':_0x3cbde4,'remainHours':_0x15116b,'remainDays':_0x4d3103,'remainTime':_0x18c73d};},_0x2ef0ea=(_0x57b653,_0x4ce50f,_0x54bc6d)=>{const _0x401ffe=_0x5bc2,_0x10149f=document['getElementById'](_0x4ce50f);if(!_0x10149f){console[_0x401ffe(0x11a)](_0x401ffe(0x146)+_0x4ce50f+_0x401ffe(0x116));return;}const _0x539b5a=_0x401ffe(0x151),_0x54e02f=_0x58cbf0(_0x57b653);if(_0x54e02f['remainTime']<=0x0){_0x10149f[_0x401ffe(0x11d)]=_0x54bc6d,window['location'][_0x401ffe(0xee)]=_0x539b5a;return;}const _0x5a027a=()=>{const _0x2a6ff3=_0x401ffe,_0x1dbfef=_0x58cbf0(_0x57b653);_0x10149f[_0x2a6ff3(0x11d)]=_0x2a6ff3(0x149)+_0x1dbfef[_0x2a6ff3(0x10f)]+_0x2a6ff3(0x155)+_0x1dbfef[_0x2a6ff3(0xfe)]+_0x2a6ff3(0x10d)+_0x1dbfef[_0x2a6ff3(0x13e)]+'</span>\x20Mins.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22pcount\x22><span>'+_0x1dbfef[_0x2a6ff3(0x14b)]+'</span>\x20Seg.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20',_0x1dbfef[_0x2a6ff3(0x143)]<=0x0&&(clearInterval(_0x41738d),_0x10149f[_0x2a6ff3(0x11d)]=_0x54bc6d,setTimeout(()=>{const _0x3bdb7d=_0x2a6ff3;window[_0x3bdb7d(0x153)][_0x3bdb7d(0xee)]=_0x539b5a;},0x7d0));};_0x5a027a();const _0x41738d=setInterval(_0x5a027a,0x3e8);},_0x2eeae3=()=>{const _0x4638be=_0x5bc2,_0x5cf2db=_0x4638be(0x107);_0x2ef0ea(_0x5cf2db,'labelm',_0x4638be(0x137));};document[_0xd44f37(0x136)]===_0xd44f37(0x10a)?document[_0xd44f37(0x13c)](_0xd44f37(0x102),_0x2eeae3):_0x2eeae3();}()));function _0x5bc2(_0x2c4fec,_0x4051e2){_0x2c4fec=_0x2c4fec-0xee;const _0x4e0ad1=_0x4e0a();let _0x5bc2d4=_0x4e0ad1[_0x2c4fec];return _0x5bc2d4;}function toggleBankData(){const _0x3a2ca0=_0x23afaa,_0x8af7dc=document[_0x3a2ca0(0x141)]('bankData'),_0x23c375=document['getElementById'](_0x3a2ca0(0x13a));_0x8af7dc[_0x3a2ca0(0x134)][_0x3a2ca0(0x120)](_0x3a2ca0(0x12f))?(_0x8af7dc[_0x3a2ca0(0x134)]['remove']('show'),_0x23c375[_0x3a2ca0(0x12e)]=_0x3a2ca0(0xf5)):(_0x8af7dc[_0x3a2ca0(0x134)]['add'](_0x3a2ca0(0x12f)),_0x23c375[_0x3a2ca0(0x12e)]='OCULTAR\x20DATOS\x20BANCARIOS');}document[_0x23afaa(0x13c)](_0x23afaa(0x102),function(){const _0x1f4e44=_0x23afaa,_0x13ff07=document['getElementById'](_0x1f4e44(0x13d)),_0x5862b6=document[_0x1f4e44(0x141)](_0x1f4e44(0x119)),_0x5e076c=document[_0x1f4e44(0x157)](_0x1f4e44(0x139)),_0x39a8d3=document[_0x1f4e44(0x157)](_0x1f4e44(0x115)),_0x48db6d=document[_0x1f4e44(0x141)](_0x1f4e44(0x11b));_0x13ff07[_0x1f4e44(0x13c)](_0x1f4e44(0x100),function(){const _0x180dcc=_0x1f4e44;_0x13ff07['classList'][_0x180dcc(0x127)](_0x180dcc(0x14f)),_0x5e076c[_0x180dcc(0x10c)][_0x180dcc(0xf6)]=_0x180dcc(0x11e),setTimeout(()=>{const _0x84c9b1=_0x180dcc;_0x13ff07['style'][_0x84c9b1(0xf6)]=_0x84c9b1(0x11e),_0x48db6d['style'][_0x84c9b1(0xf6)]='none';},0x7d0);});});function goToPage(){const _0x7da26d=_0x23afaa;var _0x58310f=document[_0x7da26d(0x157)]('.invitado'),_0x2dbf44=_0x58310f?_0x58310f[_0x7da26d(0x12e)][_0x7da26d(0x130)]():'',_0x46152c=document[_0x7da26d(0x157)](_0x7da26d(0x125)),_0x1aa70a=_0x46152c?_0x46152c['textContent'][_0x7da26d(0x130)]():'';document[_0x7da26d(0x141)](_0x7da26d(0x11f))[_0x7da26d(0xf8)]=_0x2dbf44,document['getElementById'](_0x7da26d(0x14a))[_0x7da26d(0xf8)]=_0x1aa70a;if(_0x2dbf44==null||_0x2dbf44[_0x7da26d(0x110)]==0x0||/^\s+$/[_0x7da26d(0x106)](_0x2dbf44))return document[_0x7da26d(0x141)](_0x7da26d(0x14d))[_0x7da26d(0x11d)]='Error:\x20No\x20se\x20encontró\x20el\x20nombre\x20del\x20invitado';if(_0x1aa70a==null||_0x1aa70a['length']==0x0||/^\s+$/[_0x7da26d(0x106)](_0x1aa70a))return document['getElementById'](_0x7da26d(0x14d))['innerHTML']='Error:\x20No\x20se\x20encontró\x20el\x20número\x20de\x20pases';var _0x2133fa=_0x7da26d(0x14e)+'%0A'+_0x7da26d(0xf4)+_0x7da26d(0x132)+'Nos\x20alegra\x20muchísimo\x20saber\x20que\x20nos\x20acompañarás\x20en\x20este\x20día\x20tan\x20especial.'+_0x7da26d(0x132)+_0x7da26d(0xf9)+_0x7da26d(0x132)+_0x7da26d(0x105)+_0x7da26d(0x132)+_0x7da26d(0x132)+_0x7da26d(0x113)+_0x7da26d(0x132)+_0x2dbf44+'%20'+_0x7da26d(0x132)+_0x7da26d(0x122)+_0x7da26d(0x132)+_0x1aa70a+'%20'+_0x7da26d(0x132)+_0x7da26d(0x105)+_0x7da26d(0x132)+_0x2dbf44+'%20'+'nos\x20vemos\x20en\x20la\x20boda',_0x293c5a=new MobileDetect(window[_0x7da26d(0x103)][_0x7da26d(0xff)]);_0x293c5a[_0x7da26d(0x145)]()?window[_0x7da26d(0x148)](_0x7da26d(0x142)+_0x2133fa):window[_0x7da26d(0x148)]('https://web.whatsapp.com/send?phone=593979311002'+_0x2133fa);}function _0x4e0a(){const _0x1594e7=['vibrate','textContent','show','trim','muted','%0A','7496YHQWkE','classList','\x0a\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20bottom:\x2030px;\x0a\x20\x20\x20\x20\x20\x20left:\x2050%;\x0a\x20\x20\x20\x20\x20\x20transform:\x20translateX(-50%);\x0a\x20\x20\x20\x20\x20\x20background:\x20#d4af37;\x0a\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20border:\x20none;\x0a\x20\x20\x20\x20\x20\x20padding:\x2015px\x2030px;\x0a\x20\x20\x20\x20\x20\x20border-radius:\x2050px;\x0a\x20\x20\x20\x20\x20\x20font-size:\x2018px;\x0a\x20\x20\x20\x20\x20\x20font-weight:\x20bold;\x0a\x20\x20\x20\x20\x20\x20font-family:\x20\x27Georgia\x27,\x20serif;\x0a\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20box-shadow:\x200\x204px\x2020px\x20rgba(212,175,55,0.5);\x0a\x20\x20\x20\x20\x20\x20z-index:\x2010000;\x0a\x20\x20\x20\x20\x20\x20animation:\x20pulse\x201.5s\x20infinite;\x0a\x20\x20\x20\x20','readyState','<p\x20style=\x22color:#e74c3c;\x20font-weight:bold;\x20font-size:1.2em;\x22>⏰\x20Esta\x20invitación\x20ha\x20caducado.\x20Redirigiendo...</p>','#c0392b','.abrirsobre','toggleBtn','4592112wFqlzA','addEventListener','animacionsobre','remainMinutes','load','preventDefault','getElementById','https://api.whatsapp.com/send?phone=593979311002','remainTime','name','mobile','❌\x20Elemento\x20con\x20ID\x20\x22','345uyGUus','open','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22countf\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22pcount\x22><span>','entry.2144876583','remainSeconds','keydown','demo','&text=*Confirmación\x20Boda\x20Vanessa\x20y\x20Jaime*','abrirsobrejyv','opacity','https://api.whatsapp.com/send?phone=593979311002&text=Hola%20%F0%9F%91%8B%20Te%20escribo%20para%20informarte%20que%20la%20invitaci%C3%B3n%20que%20te%20envi%C3%A9%20ya%20ha%20caducado.%20Si%20a%C3%BAn%20te%20gustar%C3%ADa%20asistir%20o%20tienes%20alguna%20pregunta,%20no%20dudes%20en%20contactarme%20directamente%20y%20con%20gusto%20te%20ayudo.%20%C2%A1Gracias%20por%20tu%20comprensi%C3%B3n!%20%F0%9F%98%8A','preload','location','head','</span>\x20Días</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22pcount\x22><span>','slice','querySelector','547040hhADqD','href','2317hBMVVp','auto','0.7','25086JRhAnf','key','✨\x20¡Muchas\x20gracias\x20por\x20confirmar!\x20✨','VER\x20DATOS\x20BANCARIOS','display','body','value','¡Será\x20un\x20placer\x20compartir\x20este\x20momento\x20contigo!\x20💍💫','max','transform','createElement','transition','remainHours','userAgent','click','✅\x20Audio\x20reproduciendo','DOMContentLoaded','navigator','🎵\x20Sistema\x20inicializado','_________________________','test','Jun\x2013\x202026\x2023:30:59\x20GMT-0500','5442544GAXNKN','❌\x20Error:','loading','currentTime','style','</span>\x20Horas</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22pcount\x22><span>','translateX(-50%)\x20scale(0)','remainDays','length','Móvil','music','*😃\x20Nombre:*','remove','.textosobre','\x22\x20no\x20encontrado','play','808800SzTXjc','haciaarriba','error','portal','🎵\x20Toca\x20para\x20reproducir\x20música','innerHTML','none','entry.1203511507','contains','Enter','*🎫Pases:*','floor','❌\x20Reintento\x20falló:','.passesfull','appendChild','add','log','cssText','Desktop','19379898rRGPkb','pointerEvents'];_0x4e0a=function(){return _0x1594e7;};return _0x4e0a();}
+// ============================================
+// 🎵 REPRODUCCIÓN GARANTIZADA EN iOS/ANDROID
+// ============================================
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("animacionsobre");
+  const audio = document.getElementById("music");
+  const portal = document.getElementById("portal");
+
+  if (!btn || !audio || !portal) return;
+
+  // Configuración inicial
+  audio.preload = "auto";
+  audio.volume = 0.7;
+  let isProcessing = false;
+
+  // ============================================
+  // 🎯 HANDLER PRINCIPAL - OPTIMIZADO PARA iOS
+  // ============================================
+  
+  const handleClick = async (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    if (isProcessing) return;
+    isProcessing = true;
+    
+    // Desactivar botón
+    btn.style.pointerEvents = "none";
+    btn.style.opacity = "0.7";
+
+    // ============================================
+    // 🎵 REPRODUCCIÓN PARA iOS (CRÍTICO)
+    // ============================================
+    
+    try {
+      // 1. Resetear audio
+      audio.currentTime = 0;
+      audio.muted = false;
+      
+      // 2. LOAD obligatorio en iOS antes de play()
+      audio.load();
+      
+      // 3. Esperar un frame para que iOS procese el load
+      await new Promise(resolve => setTimeout(resolve, 50));
+      
+      // 4. Reproducir (DEBE estar en el mismo ciclo de eventos del click)
+      await audio.play();
+      
+      console.log("✅ Audio reproduciendo");
+      
+    } catch (error) {
+      console.error("❌ Error:", error.name);
+      
+      // Fallback: Intentar una vez más
+      try {
+        await audio.play();
+      } catch (retryError) {
+        console.error("❌ Reintento falló:", retryError.name);
+        showManualPlayButton();
+      }
+    }
+
+    // ============================================
+    // 🎨 ANIMACIÓN
+    // ============================================
+    
+    portal.classList.add("fade-out");
+    
+    if (navigator.vibrate) {
+      navigator.vibrate(50);
+    }
+
+    setTimeout(() => {
+      portal.style.display = "none";
+      portal.remove();
+    }, 800);
+  };
+
+  // ============================================
+  // 🔘 BOTÓN MANUAL (FALLBACK)
+  // ============================================
+  
+  const showManualPlayButton = () => {
+    if (!audio.paused) return;
+    
+    const playBtn = document.createElement("button");
+    playBtn.innerHTML = "🎵 Toca para reproducir música";
+    playBtn.style.cssText = `
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #d4af37;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: 'Georgia', serif;
+      cursor: pointer;
+      box-shadow: 0 4px 20px rgba(212,175,55,0.5);
+      z-index: 10000;
+      animation: pulse 1.5s infinite;
+    `;
+    
+    const style = document.createElement("style");
+    style.textContent = `
+      @keyframes pulse {
+        0%, 100% { transform: translateX(-50%) scale(1); }
+        50% { transform: translateX(-50%) scale(1.08); }
+      }
+    `;
+    document.head.appendChild(style);
+    
+    playBtn.addEventListener("click", async () => {
+      try {
+        audio.load();
+        await audio.play();
+        playBtn.style.opacity = "0";
+        playBtn.style.transform = "translateX(-50%) scale(0)";
+        playBtn.style.transition = "all 0.3s ease";
+        setTimeout(() => playBtn.remove(), 300);
+      } catch (err) {
+        playBtn.textContent = "❌ No se pudo reproducir";
+        playBtn.style.background = "#c0392b";
+      }
+    }, { once: true });
+    
+    document.body.appendChild(playBtn);
+  };
+
+  // ============================================
+  // 📱 EVENTOS - SOLO CLICK (iOS requiere click directo)
+  // ============================================
+  
+  // Evento único - click funciona en iOS y Android
+  btn.addEventListener("click", handleClick, { once: true });
+  
+  // Accesibilidad
+  btn.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      handleClick(e);
+    }
+  }, { once: true });
+
+  // ============================================
+  // 🔍 DIAGNÓSTICO
+  // ============================================
+  
+  console.log("🎵 Sistema inicializado");
+  console.log("📱 Dispositivo:", /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) ? "Móvil" : "Desktop");
+});
+// (function(){
+//   const audio = document.getElementById('player');
+//   const portal = document.getElementById('portal');
+//   const btn = document.getElementById('btn-ingresar');
+//   const canvas = document.getElementById('petals-canvas');
+// //   const ctx = canvas.getContext('2d');
+//   const KEY = 'invite_consent_v3';
+//   audio.volume = 0.7;
+
+//   // Ajustar canvas
+//   function resize() {
+//     canvas.width = window.innerWidth;
+//     canvas.height = window.innerHeight;
+//   }
+//   resize();
+//   window.addEventListener('resize', resize);
+
+//   // Precargar imágenes
+//   const petal1 = new Image();
+//   const petal2 = new Image();
+//   petal1.src = 'https://invitartes.com/wp-content/uploads/2025/11/petalo1.webp';
+//   petal2.src = 'https://invitartes.com/wp-content/uploads/2025/11/petalo2.webp';
+//   const petalImages = [petal1, petal2];
+//   const petals = [];
+
+//   // === CONTROL DE VISIBILIDAD (para pausar cuando la pestaña no está activa) ===
+//   let isPageVisible = !document.hidden;
+//   document.addEventListener("visibilitychange", () => {
+//     isPageVisible = !document.hidden;
+//   });
+
+//   // Crear un pétalo individual
+//   function createPetal(force = false) {
+//     if (!force && (!petalImages[0].complete || !petalImages[1].complete || !isPageVisible)) return;
+//     const img = petalImages[Math.floor(Math.random() * 2)];
+//     const size = 100 + Math.random() * 100;
+//     petals.push({
+//       x: canvas.width * (0.1 + Math.random() * 0.8),
+//       y: canvas.height + 120,
+//       size,
+//       speed: 2.2 + Math.random() * 2,
+//       zigzag: 1.5 + Math.random() * 2,
+//       phase: Math.random() * Math.PI * 2,
+//       rotation: Math.random() * Math.PI * 2,
+//       rotSpeed: (Math.random() - 0.5) * 0.08,
+//       img
+//     });
+//   }
+
+//   // Lanzar 7 pétalos al entrar (efecto inicial)
+//   function lanzar7Petals() {
+//     for (let i = 0; i < 7; i++) {
+//       setTimeout(() => {
+//         createPetal(true);
+//       }, i * 420);
+//     }
+//   }
+
+//   // Pétalos continuos cada ~1.7 segundos
+//   let petalInterval = null;
+//   function startContinuousPetals() {
+//     if (petalInterval) return;
+//     petalInterval = setInterval(() => {
+//       if (isPageVisible) createPetal();
+//     }, 1700);
+//   }
+
+//   // Animación continua
+//   function animate() {
+//     ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+//     for (let i = petals.length - 1; i >= 0; i--) {
+//       const p = petals[i];
+//       p.y -= p.speed;
+//       p.x += Math.sin(p.phase += 0.035) * p.zigzag;
+//       p.rotation += p.rotSpeed;
+
+//       if (p.y < -250) {
+//         petals.splice(i, 1);
+//         continue;
+//       }
+
+//       ctx.save();
+//       ctx.globalAlpha = Math.min(1, (canvas.height - p.y + 400) / (canvas.height + 400));
+//       ctx.translate(p.x, p.y);
+//       ctx.rotate(p.rotation);
+//       ctx.drawImage(p.img, -p.size/2, -p.size/2, p.size, p.size);
+//       ctx.restore();
+//     }
+
+//     requestAnimationFrame(animate);
+//   }
+//   animate();
+
+//   function openSite() {
+//     portal.classList.add('hidden');
+//     window.scrollTo({top:0, behavior:'smooth'});
+//   }
+
+//   async function startMusic() {
+//     try { 
+//       audio.currentTime = 14; // ← Comienza desde el segundo 14
+//       audio.muted = false; 
+//       await audio.play(); 
+//     } catch(e) {}
+//   }
+
+//   function enter() {
+//     localStorage.setItem(KEY, '1');
+//     lanzar7Petals();           // Explosión inicial de 7 pétalos
+//     setTimeout(() => {
+//       openSite();
+//       startMusic();
+//       startContinuousPetals();   // ← Comienza la lluvia continua de pétalos
+//     }, 1600);
+//   }
+
+//   portal.onclick = enter;
+//   btn.onclick = e => { e.preventDefault(); e.stopPropagation(); enter(); };
+
+//   // Si ya había entrado antes → permitir que vea los pétalos de nuevo al hacer clic
+//   if (localStorage.getItem(KEY) === '1') {
+//     // El animacionsobre permanece visible intencionalmente
+//   }
+
+//   // Solo para pruebas rápidas
+//   if (location.search.includes('skipportal=1')) {
+//     openSite();
+//     audio.muted = true;
+//     audio.currentTime = 14; // ← También desde el segundo 14 en modo skipportal
+//     audio.play().catch(()=>{}).then(()=>setTimeout(()=>audio.muted=false,300));
+//     startContinuousPetals();
+//   }
+// }
+// )();
+
+
+// ]contador
+// ============================================
+// 🔧 CÓDIGO CORREGIDO Y MEJORADO
+// ============================================
+(function() {
+  'use strict';
+
+  // ============================================
+  // ⏱️ FUNCIÓN: CALCULAR TIEMPO RESTANTE
+  // ============================================
+  const getRemainingTime = (deadline) => {
+    const now = new Date();
+    const remainTime = Math.max((new Date(deadline) - now) / 1000, 0);
+
+    const remainSeconds = ('0' + Math.floor(remainTime % 60)).slice(-2);
+    const remainMinutes = ('0' + Math.floor((remainTime / 60) % 60)).slice(-2);
+    const remainHours   = ('0' + Math.floor((remainTime / 3600) % 24)).slice(-2);
+    const remainDays    = Math.floor(remainTime / (3600 * 24));
+
+    return { remainSeconds, remainMinutes, remainHours, remainDays, remainTime };
+  };
+
+  // ============================================
+  // ⏲️ FUNCIÓN: COUNTDOWN PRINCIPAL
+  // ============================================
+  const countdown = (deadline, elem, finalMessage) => {
+    const el = document.getElementById(elem);
+
+    if (!el) {
+      console.error(`❌ Elemento con ID "${elem}" no encontrado`);
+      return;
+    }
+
+    const redirectUrl = 'https://api.whatsapp.com/send?phone=593979311002&text=Hola%20%F0%9F%91%8B%20Te%20escribo%20para%20informarte%20que%20la%20invitaci%C3%B3n%20que%20te%20envi%C3%A9%20ya%20ha%20caducado.%20Si%20a%C3%BAn%20te%20gustar%C3%ADa%20asistir%20o%20tienes%20alguna%20pregunta,%20no%20dudes%20en%20contactarme%20directamente%20y%20con%20gusto%20te%20ayudo.%20%C2%A1Gracias%20por%20tu%20comprensi%C3%B3n!%20%F0%9F%98%8A';
+
+    // Si ya caducó desde el inicio, redirigir inmediatamente
+    const initial = getRemainingTime(deadline);
+    if (initial.remainTime <= 0) {
+      el.innerHTML = finalMessage;
+      window.location.href = redirectUrl;
+      return;
+    }
+
+    const render = () => {
+      const t = getRemainingTime(deadline);
+
+      el.innerHTML = `
+        <div class="countf">
+          <p class="pcount"><span>${t.remainDays}</span> Días</p>
+          <p class="pcount"><span>${t.remainHours}</span> Horas</p>
+          <p class="pcount"><span>${t.remainMinutes}</span> Mins.</p>
+          <p class="pcount"><span>${t.remainSeconds}</span> Seg.</p>
+        </div>
+      `;
+
+      if (t.remainTime <= 0) {
+        clearInterval(timerUpdate);
+        el.innerHTML = finalMessage;
+
+        // Pequeño delay para que el usuario vea el mensaje y luego redirige
+        setTimeout(() => {
+          window.location.href = redirectUrl;
+        }, 2000);
+      }
+    };
+
+    render();
+    const timerUpdate = setInterval(render, 1000);
+  };
+
+  // ============================================
+  // 🎬 INICIALIZACIÓN
+  // ============================================
+  const init = () => {
+    const deadline = 'Jun 13 2026 23:30:59 GMT-0500';
+
+    countdown(deadline, 'labelm', '<p style="color:#e74c3c; font-weight:bold; font-size:1.2em;">⏰ Esta invitación ha caducado. Redirigiendo...</p>');
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+})();
+
+
+
+function toggleBankData() {
+            const bankData = document.getElementById('bankData');
+            const toggleBtn = document.getElementById('toggleBtn');
+            
+            if (bankData.classList.contains('show')) {
+                bankData.classList.remove('show');
+                toggleBtn.textContent = 'VER DATOS BANCARIOS';
+            } else {
+                bankData.classList.add('show');
+                toggleBtn.textContent = 'OCULTAR DATOS BANCARIOS';
+            }
+        }
+
+
+
+//         function goToPage(){
+//     var nombre = document.getElementById('entry.1203511507').value;
+//      var pasesRadio = document.querySelector('input[name="entry.2144876583"]:checked');
+//   var pases = pasesRadio ? pasesRadio.value : "";
+ 
+ 
+//     if( nombre == null || nombre.length == 0 || /^\s+$/.test(nombre) ) {
+       
+//       return (document.getElementById("demo").innerHTML =
+//       "Ingresa tu nombre completo")
+//     }
+//     if( pases == null || pases.length == 0 || /^\s+$/.test(pases) ) {
+       
+//       return (document.getElementById("demo").innerHTML =
+//       "Ingresa el nombre de tu negocio")
+//     }
+
+
+
+// var whatsapp_number ="&text=*Confirmación Boda Jaime y Vane 2026*"+ "%0A"+"✨ ¡Muchas gracias por confirmar! ✨"+ "%0A" +"Nos alegra muchísimo saber que nos acompañarás en este día tan especial."+ "%0A"+"¡Será un placer compartir este momento contigo! 💍💫" + "%0A"+"_________________________" + "%0A"+"%0A"+ "*😃 Nombre:*" +"%0A" + nombre + "%20"+"%0A" +"*🎫Pases:*" +"%0A" +  pases +  "%20"+"%0A"+"_________________________"+"%0A"+nombre+ "%20"+ "nos vemos en la boda";
+  
+// //4️⃣5️⃣6️⃣7️⃣
+  
+
+
+
+//    var md = new MobileDetect(window.navigator.userAgent);
+//    if (md.mobile()) {
+ 
+//     window.open(document.getElementById("enviarwa").href = "https://api.whatsapp.com/send?phone=593979311002" + whatsapp_number);
+//   //  }
+         
+//    } else {
+//         window.open(document.getElementById("enviarwa").href = "https://web.whatsapp.com/send?phone=593979311002" + whatsapp_number);
+//        }
+
+//       }
+
+
+      document.addEventListener('DOMContentLoaded', function() {
+  const animacionsobre = document.getElementById('animacionsobre');
+  const haciaarriba = document.getElementById('haciaarriba');
+  const abrirsobre = document.querySelector('.abrirsobre');
+  const textosobre = document.querySelector('.textosobre');
+  const portal = document.getElementById('portal');
+  animacionsobre.addEventListener('click', function() {
+    // Agregar clase para activar la apertura
+    animacionsobre.classList.add('abrirsobrejyv');
+    
+    // Ocultar el hint de "toca para abrir"
+    abrirsobre.style.display = 'none';
+    
+    // Opcional: Ocultar animacionsobre después de la animación
+    setTimeout(() => {
+      animacionsobre.style.display = 'none';
+    portal.style.display = 'none';
+    }, 2000); // Ajusta según duración de tu animación
+  });
+});
+
+function goToPage(){
+    // Obtener el nombre del invitado desde el div con clase 'invitado'
+    var invitadoElement = document.querySelector('.invitado');
+    var nombre = invitadoElement ? invitadoElement.textContent.trim() : '';
+    
+    // Obtener el número de pases desde el div con clase 'passesfull'
+    var passesElement = document.querySelector('.passesfull');
+    var pases = passesElement ? passesElement.textContent.trim() : '';
+    
+    // Llenar los campos ocultos del formulario antes de validar
+    document.getElementById('entry.1203511507').value = nombre;
+    document.getElementById('entry.2144876583').value = pases;
+    
+    // Validaciones (ahora son opcionales ya que los valores vienen del sistema)
+    if( nombre == null || nombre.length == 0 || /^\s+$/.test(nombre) ) {
+        return (document.getElementById("demo").innerHTML = "Error: No se encontró el nombre del invitado");
+    }
+    
+    if( pases == null || pases.length == 0 || /^\s+$/.test(pases) ) {
+        return (document.getElementById("demo").innerHTML = "Error: No se encontró el número de pases");
+    }
+
+    var whatsapp_number = "&text=*Confirmación Boda Vanessa y Jaime*" + "%0A" + 
+        "✨ ¡Muchas gracias por confirmar! ✨" + "%0A" + 
+        "Nos alegra muchísimo saber que nos acompañarás en este día tan especial." + "%0A" + 
+        "¡Será un placer compartir este momento contigo! 💍💫" + "%0A" + 
+        "_________________________" + "%0A" + "%0A" + 
+        "*😃 Nombre:*" + "%0A" + nombre + "%20" + "%0A" + 
+        "*🎫Pases:*" + "%0A" + pases + "%20" + "%0A" + 
+        "_________________________" + "%0A" + 
+        nombre + "%20" + "nos vemos en la boda";
+
+    var md = new MobileDetect(window.navigator.userAgent);
+    if (md.mobile()) {
+        window.open("https://api.whatsapp.com/send?phone=593979311002" + whatsapp_number);
+    } else {
+        window.open("https://web.whatsapp.com/send?phone=593979311002" + whatsapp_number);
+    }
+}
+
+
+   // 📅 SISTEMA DE CALENDARIO UNIVERSAL
+// ============================================
+
+document.addEventListener("DOMContentLoaded", () => {
+  const calendarBtn = document.getElementById("add-to-calendar");
+  const modal = document.getElementById("calendar-modal");
+  const closeModal = document.getElementById("close-calendar-modal");
+  const calendarOptions = document.querySelectorAll(".calendar-option");
+
+  if (!calendarBtn || !modal) return;
+
+  // ============================================
+  // 📝 CONFIGURACIÓN DEL EVENTO
+  // ============================================
+  
+  const eventDetails = {
+    title: "Boda de Vanessa & Jaime",
+    description: "Ceremonia religiosa: 16:00 - Cóctel de bienvenida 17:00 - Palabras de bienvenida y entrada de los novios 17:30",
+    location: "Villa Las Paulitas, Quito, Pomasqui",
+    // FORMATO: YYYYMMDDTHHMMSS (en hora local)
+ startDate: "20260613T160000", // 13 de Junio 2026, 4:00 PM
+  endDate: "20260613T230000",   // 13 de Junio 2026, 11:00 PM
+  
+    timezone: "America/Guayaquil" // Ajusta según tu zona horaria
+  };
+
+  // ============================================
+  // 🎯 ABRIR MODAL
+  // ============================================
+  
+  calendarBtn.addEventListener("click", () => {
+    modal.style.display = "flex";
+    document.body.style.overflow = "hidden";
+  });
+
+  // ============================================
+  // ❌ CERRAR MODAL
+  // ============================================
+  
+  const closeModalFunc = () => {
+    modal.style.display = "none";
+    document.body.style.overflow = "auto";
+  };
+
+  closeModal.addEventListener("click", closeModalFunc);
+  
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      closeModalFunc();
+    }
+  });
+
+  // ============================================
+  // 🔧 FUNCIONES GENERADORAS DE ENLACES
+  // ============================================
+  
+  const formatDateForGoogle = (date) => {
+    // Convertir de YYYYMMDDTHHMMSS a YYYYMMDDTHHMMSSZ
+    return date.replace(/[:-]/g, '');
+  };
+
+  const generateGoogleCalendar = () => {
+    const baseUrl = "https://calendar.google.com/calendar/render";
+    const params = new URLSearchParams({
+      action: "TEMPLATE",
+      text: eventDetails.title,
+      details: eventDetails.description,
+      location: eventDetails.location,
+      dates: `${formatDateForGoogle(eventDetails.startDate)}/${formatDateForGoogle(eventDetails.endDate)}`,
+      ctz: eventDetails.timezone
+    });
+    return `${baseUrl}?${params.toString()}`;
+  };
+
+  const generateOutlookCalendar = () => {
+    const baseUrl = "https://outlook.live.com/calendar/0/deeplink/compose";
+    const params = new URLSearchParams({
+      path: "/calendar/action/compose",
+      rru: "addevent",
+      subject: eventDetails.title,
+      body: eventDetails.description,
+      location: eventDetails.location,
+      startdt: eventDetails.startDate,
+      enddt: eventDetails.endDate
+    });
+    return `${baseUrl}?${params.toString()}`;
+  };
+
+  const generateYahooCalendar = () => {
+    const baseUrl = "https://calendar.yahoo.com/";
+    const params = new URLSearchParams({
+      v: "60",
+      view: "d",
+      type: "20",
+      title: eventDetails.title,
+      desc: eventDetails.description,
+      in_loc: eventDetails.location,
+      st: eventDetails.startDate,
+      et: eventDetails.endDate
+    });
+    return `${baseUrl}?${params.toString()}`;
+  };
+
+  const generateICS = () => {
+    const icsContent = `BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Mi Sitio Web//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:${eventDetails.startDate}
+DTEND:${eventDetails.endDate}
+DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').split('.')[0]}Z
+UID:${Date.now()}@misitio.com
+SUMMARY:${eventDetails.title}
+DESCRIPTION:${eventDetails.description.replace(/\n/g, '\\n')}
+LOCATION:${eventDetails.location}
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR`;
+
+    const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'evento.ics';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    // Mostrar confirmación
+    showNotification("✅ Archivo descargado. Ábrelo para agregar a tu calendario.");
+  };
+
+  // ============================================
+  // 🍎 DETECCIÓN DE APPLE (iOS/macOS)
+  // ============================================
+  
+  const isAppleDevice = () => {
+    return /iPhone|iPad|iPod|Macintosh/i.test(navigator.userAgent);
+  };
+
+  const handleAppleCalendar = () => {
+    if (isAppleDevice()) {
+      // En dispositivos Apple, el archivo .ics se abre automáticamente
+      generateICS();
+    } else {
+      alert("Para dispositivos Apple, descarga el archivo .ics y ábrelo en tu dispositivo.");
+      generateICS();
+    }
+  };
+
+  // ============================================
+  // 🔔 NOTIFICACIÓN
+  // ============================================
+  
+  const showNotification = (message) => {
+    const notification = document.createElement('div');
+    notification.textContent = message;
+    notification.style.cssText = `
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #2ecc71;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-weight: bold;
+      box-shadow: 0 4px 15px rgba(46, 204, 113, 0.4);
+      z-index: 10001;
+      animation: slideInUp 0.3s ease;
+    `;
+    
+    document.body.appendChild(notification);
+    
+    setTimeout(() => {
+      notification.style.animation = 'slideOutDown 0.3s ease';
+      setTimeout(() => notification.remove(), 300);
+    }, 3000);
+  };
+
+  // ============================================
+  // 🎯 MANEJADORES DE EVENTOS
+  // ============================================
+  
+  calendarOptions.forEach(option => {
+    option.addEventListener("click", () => {
+      const type = option.getAttribute("data-type");
+      let url;
+
+      switch(type) {
+        case "google":
+          url = generateGoogleCalendar();
+          window.open(url, '_blank');
+          showNotification("✅ Abriendo Google Calendar...");
+          break;
+          
+        case "apple":
+          handleAppleCalendar();
+          break;
+          
+        case "outlook":
+          url = generateOutlookCalendar();
+          window.open(url, '_blank');
+          showNotification("✅ Abriendo Outlook...");
+          break;
+          
+        case "yahoo":
+          url = generateYahooCalendar();
+          window.open(url, '_blank');
+          showNotification("✅ Abriendo Yahoo Calendar...");
+          break;
+          
+        case "ics":
+          generateICS();
+          break;
+      }
+
+      closeModalFunc();
+    });
+  });
+
+  // ============================================
+  // 📱 ESTILO DE ANIMACIONES
+  // ============================================
+  
+  const style = document.createElement('style');
+  style.textContent = `
+    @keyframes slideInUp {
+      from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+    }
+    
+    @keyframes slideOutDown {
+      from {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+      to {
+        opacity: 0;
+        transform: translateX(-50%) translateY(20px);
+      }
+    }
+  `;
+  document.head.appendChild(style);
+
+  console.log("📅 Sistema de calendario inicializado");
+});   

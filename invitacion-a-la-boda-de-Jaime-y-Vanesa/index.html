@@ -177,10 +177,47 @@
     <div id="titu" class="titu"></div>  
     <div id="labelm">   </div>
 </div>
-<div class="btn-calendario"><a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NTZmMTg5NjBlYTlzcWNvY2NjdHQ4NmhxN20gd2hhdHNidWxrc2VuZGVyQG0&tmsrc=whatsbulksender%40gmail.com" target="_blank"  >
+
+<!-- calendarios -->
+<!-- <div class="btn-calendario"><a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NTZmMTg5NjBlYTlzcWNvY2NjdHQ4NmhxN20gd2hhdHNidWxrc2VuZGVyQG0&tmsrc=whatsbulksender%40gmail.com" target="_blank"  >
         📅 Agendar Recordatorio
     </a>
+</div> -->
+
+<button id="add-to-calendar" class="calendar-btn">
+  📅 Agendar en Calendario
+</button>
+
+<!-- Modal de selección -->
+<div id="calendar-modal" class="calendar-modal" style="display: none;">
+  <div class="calendar-modal-content">
+    <h3>Selecciona tu calendario</h3>
+    <div class="calendar-options">
+      <button class="calendar-option" data-type="google">
+        <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="Google">
+        Google Calendar
+      </button>
+      <button class="calendar-option" data-type="apple">
+        <img src="https://cdn-icons-png.flaticon.com/512/731/731985.png" alt="Apple">
+        Apple Calendar
+      </button>
+      <button class="calendar-option" data-type="outlook">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Outlook">
+        Outlook
+      </button>
+      <button class="calendar-option" data-type="yahoo">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968842.png" alt="Yahoo">
+        Yahoo Calendar
+      </button>
+      <button class="calendar-option" data-type="ics">
+        📥 Descargar .ics
+      </button>
+    </div>
+    <button class="close-modal" id="close-calendar-modal">✕ Cerrar</button>
+  </div>
 </div>
+
+
 <!-- ]end calendario -->
 
 <!-- <div class="fotosjyv">
