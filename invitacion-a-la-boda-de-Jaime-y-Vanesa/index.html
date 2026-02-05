@@ -26,7 +26,6 @@
 <meta name="twitter:description" content="¡Estás invitado! Nos encantaría que seas parte de este momento tan especial para nosotros. ¡Falta poco! "/>
 <meta name="twitter:url" content="https://celebraconmigo.net/invitacion-a-la-boda-de-Jaime-y-Vanesa/"/>
 <meta name="twitter:image" content="https://celebraconmigo.net/invitacion-a-la-boda-de-Jaime-y-Vanesa/img/1.jpeg"/>
-	<!-- This site is optimized with the Yoast SEO plugin v25.6 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Invitación a la Boda de Vanessa &amp; Jaime | ¡Acompáñanos en nuestro día especial!</title>
 	<meta name="description" content="Vanessa &amp; Jaime se casan el 13 de junio de 2026. ¡Te invitamos a celebrar este día tan especial con nosotros! Descubre todos los detalles y acompáñanos a disfrutar de este momento único." />
 	<link rel="canonical" href="https://celebraconmigo.net/invitacion-a-la-boda-de-Jaime-y- /" />
@@ -42,12 +41,6 @@
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta name="twitter:card" content="summary_large_image" />
 
-
-
-
-
-
-   
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Great+Vibes&family=Hahmlet:wght@100..900&display=swap" rel="stylesheet">
@@ -145,15 +138,15 @@
     <!-- Caja del pase -->
     <div class="pass-box">
         <!-- Nombre del invitado -->
-        <h1 class="invitado">Srta. María de los Ángeles</h1>
+        <h1 class="invitado" id="invitado"></h1>
 
         <!-- Texto "Hemos reservado" -->
         <p class="reserved-text">Hemos reservado</p>
 
         <!-- Contenedor del pase -->
         <div class="pass-container">
-            <div class="passesfull">1</div>
-            <div class="pass-text">PASE</div>
+            <div class="passesfull" id="passesfull"></div>
+            <div class="pass-text" id="pass-text"></div>
         </div>
 
         <!-- Texto "en su honor" -->
@@ -414,7 +407,7 @@
     <img src="img/regalos.svg" alt="" srcset="">
 
     <h2>REGALOS</h2>
-    <p>Su presencia es nuestro mejor regalo, pero si aúnasí desea contribuir a nuestra futura vida juntos, hemos abierto un número de cuenta.</p>
+    <p>Su presencia es nuestro mejor regalo, pero si aún así desea contribuir a nuestra futura vida juntos, hemos abierto un número de cuenta.</p>
     <!-- <small>¡Luce tu mejor look!</small> -->
     <!-- <h3> 13 JUN | 14:00 <span>P.M.</span></h3>  -->
 
@@ -520,11 +513,8 @@ crossorigin="anonymous"></script>
     </script>
     <script type="text/javascript">
 $('#gform').on('submit', function(event) {
-    // Oculta inmediatamente todos los elementos dentro de #gform
     $('#gform *').css('display', 'none');
-    
-    // Agrega un mensaje de agradecimiento al inicio de #gform
-    $('#gform').prepend('<h1 class="pgracias">¡Gracias! Se ha confirmado tu asistencia.</h1>');
+        $('#gform').prepend('<h1 class="pgracias">¡Gracias! Se ha confirmado tu asistencia.</h1>');
 });
 </script>
 </body>
