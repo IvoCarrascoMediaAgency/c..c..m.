@@ -23,7 +23,7 @@
 } */
 
 .h1-boda {
-  font-family: "Great Vibes", cursive;
+  font-family: "Parisienne", cursive;
   font-weight: 400;
   font-style: normal;
       font-size: 4em;
@@ -146,7 +146,7 @@ body{
  .h1-bodapre{
 max-width: 100%;
 margin: 0 auto;    color: #ceb239;
-    font-family: "Great Vibes", cursive;
+    font-family: "Parisienne", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 3em;
@@ -154,7 +154,7 @@ margin: 0 auto;    color: #ceb239;
   .h1-bodapre2{
 max-width: 100%;
 margin: 0 auto;        color: #6a6a6a;
-    font-family: "Great Vibes", cursive;
+    font-family: "Parisienne", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 3em;
@@ -437,7 +437,7 @@ position: absolute !important;
 
 .colrex {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto ;
     width: 100%;
     justify-content: space-around;
     margin-bottom: 40px;
@@ -643,7 +643,7 @@ h2.itinerarioh2
 
 
   .h2footer{
-    font-family: "Great Vibes", cursive !important;
+    font-family: "Parisienne", cursive;
   }
   .iniciales{
     max-width: 100px;
@@ -907,7 +907,7 @@ img.fotosnuv {
     left:50%;
     transform:translateX(-50%);
    
-    font-family:"Great Vibes",cursive;
+    font-family:"Parisienne", cursive;
     font-size:clamp(30px,4.5vw,32px);
     text-align:center;
     z-index:3;
