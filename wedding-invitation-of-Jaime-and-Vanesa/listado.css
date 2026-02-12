@@ -1,0 +1,149 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+.canva{
+    display: grid;
+    justify-content: center;
+    max-width: 500px;
+    justify-items: center;
+    margin: 0 auto;
+    /* width: 95%; */
+       background-image:
+    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    url("img/flor-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}   
+
+.cabva2{
+
+      width: 95%;
+}
+
+.h1-boda {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+      font-size: 4em;
+}
+
+@keyframes flotar {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.elemento-flotante {
+  animation: flotar 3s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.elemento-flotante:hover {
+  animation-play-state: paused;
+  transform: scale(1.05);
+}
+
+.fecha {
+    color: #ceb239;
+    font-family: "Hahmlet", serif;
+    letter-spacing: .35em;
+    font-size: 1em;
+    opacity: .9;
+    margin-bottom: 30px;
+}
+.h1-boda {
+    color: #ceb239;
+}
+
+.portada{
+    display: grid;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.invitacion{
+  margin-top: 30px;
+   background: #ffffff80;
+ display: grid;
+ border-radius: 20px;
+ padding:  10px;
+}
+
+.invitado{
+margin-bottom: 30px;
+
+}
+
+#pases{
+
+  background: #ffe7f4;
+padding:4px;
+border-radius: 20px;
+color: #c7398c;
+    width: 70px;
+
+
+}
+.ainvitado{
+ 
+color: white;
+background: rgb(36, 74, 243);
+padding: 4px;
+cursor: pointer;
+border-radius: 20px;
+text-decoration: none;
+font-family: "Google Sans", sans-serif;
+}
+
+.pasesview {
+    display: grid;
+    grid-column: auto auto;
+    grid-template-columns: auto auto;
+    TEXT-ALIGN: CENTER;
+    grid-gap: 10px;
+}
+.btnwa{
+margin: 10px;
+  display: grid;
+    grid-column: auto auto;
+    grid-template-columns: auto auto;
+    TEXT-ALIGN: CENTER;
+    grid-gap: 10px;
+}
+
+#wainvitado{
+
+color: white;
+background: #25D366;
+padding: 4px;
+cursor: pointer;
+border-radius: 20px;
+text-decoration: none;
+font-family: "Google Sans", sans-serif;
+
+
+}
+
+button#walink {
+  
+color: #333;
+background:white;
+padding: 4px;
+cursor: pointer;
+border-radius: 20px;
+text-decoration: none;
+font-family: "Google Sans", sans-serif;
+
+}
+
+h2{
+  font-family: "Hahmlet", serif;
+}
