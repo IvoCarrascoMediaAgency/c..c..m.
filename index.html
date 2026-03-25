@@ -1,150 +1,762 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <title>celebraconmigo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>celebraconmigo — Momentos que se celebran juntos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="clb.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.3/mobile-detect.min.js"></script>
+<link rel="stylesheet" href="icons3/iconos3.css">
+<link rel="stylesheet" href="iconosr/iconosr.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-
-  <style>
-    :root {
-      --coral: #FF6F61;
-      --dark: #2E2E2E;
-      --gold: #C9A24D;
-      --bg: #FFF7F3;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      background: radial-gradient(circle at top left, #ffffff, var(--bg));
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--dark);
-    }
-
-    .hero {
-      text-align: center;
-      padding: 40px;
-      max-width: 900px;
-    }
-
-    .logo {
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .logo-text {
-      font-size: clamp(42px, 6vw, 72px);
-      line-height: 1.1;
-      letter-spacing: 0.5px;
-    }
-
-    .celebra {
-      font-family: 'Playfair Display', serif;
-      color: var(--coral);
-      position: relative;
-    }
-
-    .celebra::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: -10px;
-      width: 100%;
-      height: 4px;
-      background: var(--coral);
-      border-radius: 2px;
-      opacity: 0.8;
-    }
-
-    .conmigo {
-      font-weight: 500;
-      color: var(--dark);
-    }
-
-    .sparkle {
-      margin-left: 10px;
-      font-size: 28px;
-      color: var(--gold);
-      transform: translateY(-20px);
-    }
-
-    .tagline {
-      margin-top: 32px;
-      font-size: 18px;
-      color: var(--gold);
-      letter-spacing: 1px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-    }
-
-    .line {
-      width: 50px;
-      height: 1px;
-      background: var(--gold);
-      opacity: 0.6;
-    }
-
-    /* Animación sutil startup */
-    .fade-in {
-      animation: fadeIn 1.2s ease forwards;
-      opacity: 0;
-    }
-
-    @keyframes fadeIn {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @media (max-width: 600px) {
-      .sparkle {
-        font-size: 22px;
-      }
-      .tagline {
-        font-size: 15px;
-      }
-    }
-  </style>
 </head>
-
 <body>
 
-  <section class="hero fade-in">
-    <div class="logo">
-      <h1 class="logo-text">
-        <span class="celebra">celebra</span><span class="conmigo">conmigo</span>
-      </h1>
-      <span class="sparkle">✦</span>
+<!-- <div class="cursor" id="cursor">
+  <div class="cursor-dot" id="cdot"></div>
+  <div class="cursor-ring" id="cring"></div>
+</div> -->
+
+<!-- ═══ NAV ═══ -->
+<nav id="nav">
+  <a href="#" class="logo">
+<img class="imglogo" src="img/celebraconmigo.png" alt="" srcset="">  </a>
+  <ul class="nav-links">
+    <li><a href="#coleccion">Colección</a></li>
+    <li><a href="#precios">Precios</a></li>
+    <li><a href="#proceso">Proceso</a></li>
+    <li><a href="#testimonios">Testimonios</a></li>
+  </ul>
+  <a href="#coleccion" class=" gh44">Colección 2026 </a> 
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero" id="inicio">
+  <div class="hero-left">
+    <div class="hero-pill">
+      <div class="hero-pill-dot"></div>
+      <h1 class="hero-pill-text">Invitaciones digitales · Premium 2026</h1>
+    </div>
+    <h1 class="hero-title">
+      Para Bodas <br>
+      Cumpleaños y <br>
+      <span class="serif-italic">Eventos sociales</span>
+      <!-- <span class="accent-gold"> ✦</span> -->
+    </h1>
+
+
+<!-- end -->
+<p class="hero-subtitle">
+      Elegantes, minimalistas, fáciles de compartir por WhatsApp, redes sociales o correo, tus invitados pueden confirmar asistencia, ver la ubicación exacta, guardar el evento en su calendario y mucho más.
+    </p>
+<!-- <div class="pillecos">
+ <span class="pilleco">Ecofrendly olvidate del papel</span> <br>
+    <span class="pilleco">Petfrendly Invitaciones para tus peluditos </span>
+</div> -->
+   
+    <div class="hero-actions">
+      <a href="#coleccion" class="btn-primary">Ver invitaciones</a>
+      <a href="#precios" class="btn-ghost">Ver planes</a>
+    </div>
+   
     </div>
 
-    <div class="tagline">
-      <span class="line"></span>
-      <span>Momentos que se celebran juntos</span>
-      <span class="line"></span>
-    </div>
-  </section>
+  <div class="hero-right">
+<!-- slide de img servicios -->
 
-  <script>
-    // Animación leve al cargar (startup feel)
-    window.addEventListener("load", () => {
-      document.querySelector(".hero").style.transform = "translateY(0)";
-    });
-  </script>
+<div class="slider-wrapper">
+  <div class="slider" id="slider">
+ 
+    <!-- Slide 1 -->
+    <div class="slide active">
+      <img src="img/mock-u-iphone-xv-años-con-btn.png" alt="Montañas al amanecer">
+    </div>
+ 
+    <!-- Slide 2-->
+  <div class="slide active">
+      <img src="img/graduacion-USFQ-2-conbotones.png" alt="Montañas al amanecer">
+    </div>
+    <!-- Slide 3  -->
+ <div class="slide ">
+      <img src="img/boda-jammo-Vane-2-con-btn.png" alt="Montañas al amanecer">
+    </div>
+
+     <div class="slide ">
+      <img src="img/peluditos-cumple-con-btn.png" alt="Montañas al amanecer">
+    </div>
+     <div class="slide ">
+      <img src="img/cumple-roblox-con-btn.png" alt="Montañas al amanecer">
+    </div>
+
+  <!-- Dots -->
+  <div class="dots" role="tablist">
+    <button class="dot active" data-i="0" aria-label="Slide 1"></button>
+    <button class="dot" data-i="1" aria-label="Slide 2"></button>
+    <button class="dot" data-i="2" aria-label="Slide 3"></button>
+    <button class="dot" data-i="3" aria-label="Slide 4"></button>
+    <button class="dot" data-i="4" aria-label="Slide 5"></button>
+  </div>
+</div>
+
+ <div class="hero-stats">
+      <div>
+        <span class="stat-num">+1K</span>
+        <span class="stat-label">Celebraciones</span>
+      </div>
+      <div>
+        <span class="stat-num">100%</span>
+        <span class="stat-label">Satisfacción</span>
+      </div>
+      <div>
+        <span class="stat-num">48h</span>
+        <span class="stat-label">Entrega garantizada</span>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+     <!-- <div class="hero-tagline">
+      <span class="tagline-line"></span>
+      Momentos que se celebran juntos
+      <span class="tagline-line"></span>
+    </div> -->
+    
+  </div>
+
+    <!-- <div class="hero-blob hero-blob-1"></div>
+    <div class="hero-blob hero-blob-2"></div>
+    <div class="phones-container">
+      <div class="phone phone-left">
+        <div class="phone-notch"></div>
+        <div class="phone-screen gold">
+          <div class="ph-ornament g">✦</div>
+          <div class="ph-names dark-name">Bodas<br>&amp; <br>Aniversarios</div>
+          <div class="ph-divider g"></div>
+          <div class="ph-date">12 · Oct · 2025</div>
+        </div>
+      </div>
+      <div class="phone phone-center">
+        <div class="phone-notch"></div>
+        <div class="phone-screen warm">
+          <div class="ph-ornament">❧</div>
+          <div class="ph-names coral" style="font-size:1.6rem">Cumpleaños<br>&amp; Eventos Sociales</div>
+          <div class="ph-divider"></div>
+          <div class="ph-date">Nos casamos</div>
+          <div class="ph-venue" style="margin-top:5px;font-size:.55rem">Villa Toscana · Roma</div>
+        </div>
+      </div>
+      <div class="phone phone-right">
+        <div class="phone-notch"></div>
+        <div class="phone-screen dark">
+          <div class="ph-ornament w">◆</div>
+          <div class="ph-names light">Ceremonias<br>&amp; Más</div>
+          <div class="ph-divider" style="background:var(--gold);opacity:.6"></div>
+          <div class="ph-date light">28 · Jun · 2025</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-floating-tag">
+      <div class="float-label">Diseño listo en</div>
+      <div class="float-value">48 horas</div>
+      <div class="float-sub">✦ Entrega garantizada</div>
+    </div> -->
+ 
+</section>
+
+
+
+
+<section class="imgportada2">
+
+</section>
+
+<!-- ═══ MARQUEE ═══ -->
+<div class="marquee">
+  <div class="marquee-track" id="mqt">
+    <span class="mi"><span class="mi-dot"></span>Invitaciones digitales de lujo</span>
+    <span class="mi"><span class="mi-dot"></span>Confirmación RSVP en tiempo real</span>
+    <span class="mi"><span class="mi-dot"></span>Google Maps integrado</span>
+    <span class="mi"><span class="mi-dot"></span>Galería fotográfica</span>
+    <span class="mi"><span class="mi-dot"></span>Cuenta regresiva</span>
+    <span class="mi"><span class="mi-dot"></span>Compartir por WhatsApp</span>
+    <span class="mi"><span class="mi-dot"></span>Diseño exclusivo</span>
+    <span class="mi"><span class="mi-dot"></span>Soporte dedicado</span>
+    <span class="mi"><span class="mi-dot"></span>Momentos que se celebran juntos ✦</span>
+    <span class="mi"><span class="mi-dot"></span>Invitaciones digitales de lujo</span>
+    <span class="mi"><span class="mi-dot"></span>Confirmación RSVP en tiempo real</span>
+    <span class="mi"><span class="mi-dot"></span>Google Maps integrado</span>
+    <span class="mi"><span class="mi-dot"></span>Galería fotográfica</span>
+    <span class="mi"><span class="mi-dot"></span>Cuenta regresiva</span>
+    <span class="mi"><span class="mi-dot"></span>Compartir por WhatsApp</span>
+    <span class="mi"><span class="mi-dot"></span>Diseño exclusivo</span>
+    <span class="mi"><span class="mi-dot"></span>Soporte dedicado</span>
+    <span class="mi"><span class="mi-dot"></span>Momentos que se celebran juntos ✦</span>
+  </div>
+</div>
+
+<!-- ═══ SHOWCASE ═══ -->
+<section class="showcase" id="coleccion">
+  <div class="showcase-top reveal">
+    <div>
+      <div class="sec-label"><div class="sec-label-bar"></div><span class="sec-label-text">Colección 2026</span></div>
+      <h2 class="sec-title">Invitaciones <br>que <em>impactan</em></h2>
+    </div>
+    <p class="showcase-note">Cada invitación es personalizada, fusionando calidez contemporánea con la elegancia que tu celebración merece.</p>
+  </div>
+
+  <div class="gallery reveal d2">
+    <div class="g-card">
+      <div class="g-inner">
+        <div class="g-bg gb1">
+          <div class="g-content">
+            <div style="font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--coral);opacity:.6;margin-bottom:8px">❧</div>
+            <div class="g-title">Bodas <br>&amp; <br>Aniversarios</div>
+         <!-- <div class="g-tag">Colección 2026</div> -->
+            <div class=""><span id="openModal"  class="btn-ver">Ver invitación</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="g-overlay"><span id="openModal"  class="g-overlay-text btn-ver">Ver diseño completo</span></div> -->
+     
+    </div>
+
+    
+
+
+
+    <div class="g-card">
+      <div class="g-inner">
+        <div class="g-bg gb2">
+          <div class="g-content">
+            <div style="font-family:'Playfair Display',serif;font-size:1.2rem;color:var(--coral);opacity:.6;margin-bottom:8px">◆</div>
+            <div class="g-title lgt">XV años <br>&amp; <br>Cumpleaños</div>
+            <!-- <div class="g-divider g"></div> -->
+            <!-- <div class="g-tag lgt">Colección 2026</div> -->
+            <div class=""><span id="openModal2"  class="btn-ver">Ver invitación</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="g-overlay"><span class="g-overlay-text">Ver diseño completo</span></div> -->
+    </div>
+    <!-- <div class="g-card">
+      <div class="g-inner">
+        <div class="g-bg gb3">
+          <div class="g-content">
+            <div style="font-family:'Playfair Display',serif;font-size:1.2rem;color:var(--gold);opacity:.7;margin-bottom:8px">✦</div>
+            <div class="g-title">Celebraciones<br>&amp;<br>Eventos Sociales</div>
+            <div class="g-divider g"></div>
+            <div class="g-tag">Colección 2026</div>
+          </div>
+        </div>
+      </div>
+      <div class="g-overlay"><span class="g-overlay-text">Ver diseño completo</span></div>
+    </div>
+    <div class="g-card">
+      <div class="g-inner">
+        <div class="g-bg gb4">
+          <div class="g-content">
+            <div style="font-family:'Playfair Display',serif;font-size:1.2rem;color:rgba(201,162,77,.5);margin-bottom:8px">✦</div>
+            <div class="g-title lgt">Graduaciones<br>&amp;<br>Ceremonias</div>
+            <div class="g-divider g"></div>
+            <div class="g-tag lgt">Colección 2026</div>
+          </div>
+        </div>
+      </div>
+      <div class="g-overlay"><span class="g-overlay-text">Ver diseño completo</span></div>
+    </div>
+    <div class="g-card">
+      <div class="g-inner">
+        <div class="g-bg gb5">
+          <div class="g-content">
+            <div style="font-family:'Playfair Display',serif;font-size:1.2rem;color:var(--coral);opacity:.6;margin-bottom:8px">❧</div>
+            <div class="g-title">Lino &amp;<br>Lavanda</div>
+            <div class="g-divider"></div>
+            <div class="g-tag">Colección Pastoral</div>
+          </div>
+        </div>
+      </div>
+      <div class="g-overlay"><span class="g-overlay-text">Ver diseño completo</span></div>
+    </div> -->
+  </div>
+
+
+</section>
+
+<!-- modal invitacion bodas -->
+   <div id="modalContainer" class="modal-overlay">
+    <div class="modal-content">
+        <span id="closeModal" class="close-button">&times;</span>
+        <!-- <iframe id="modalFrame" src="http://192.168.100.26:54404/invitacion-a-la-boda-de-Jaime-y-Vanesa/" frameborder="0"></iframe> -->
+        <iframe id="modalFrame" src="celebraconmigo.net/invitacion-a-la-boda-de-Jaime-y-Vanesa/" frameborder="0"></iframe>
+    </div>
+</div>
+
+
+<!-- modal invitacion XV años -->
+   <div id="modalContainer2" class="modal-overlay2">
+    <div class="modal-content2">
+        <span id="closeModal2" class="close-button">&times;</span>
+        <!-- <iframe id="modalFrame" src="http://192.168.100.26:54404/invitacion-a-la-boda-de-Jaime-y-Vanesa/" frameborder="0"></iframe> -->
+        <iframe id="modalFrame2" src="http://192.168.100.26:5500/invitacion-XV-anos-Alejandra-Coronel/" frameborder="0"></iframe>
+    </div>
+</div>
+
+
+
+<!-- ═══ PRICING ═══ -->
+<section class="pricing" id="precios">
+  <div class="pricing-head reveal">
+    <div class="sec-label" style="justify-content:center"><div class="sec-label-bar"></div><span class="sec-label-text">Planes y precios</span><div class="sec-label-bar"></div></div>
+    <h2 class="sec-title" style="margin-top:14px">Elige tu plan <em>ideal</em></h2>
+    <p style="font-size:.86rem;font-weight:500;color:var(--graphite-soft);max-width:400px;line-height:1.9;margin: 0 auto ;margin-top:30px;">Sin comprometer calidad, cada plan está pensado para distintas necesidades y es 100% personalizado</p>
+  </div>
+  <div class="pricing-grid reveal d2">
+   
+    <div class="p-card">
+      <div class="p-plan">Signature—Experiencia Exclusiva</div>
+     <div class="divmoneda"> <span class="p-currency">$</span> <del class="redtacha"> <div class="p-price">127</div> </de></div>
+<div class="dct">Spring SALE <div class="valordct">$ 99,99</div></div>
+      <p class="p-desc">Creada desde cero para reflejar la esencia de tu evento. <br>
+Signature no es una plantilla: es una pieza digital personalizada que eleva tu celebración a otro nivel.</p>
+      <!-- <ul class="p-feats">
+        <li><div class="fc">✓</div>Todo lo del plan Deluxe</li>
+        <li><div class="fc">✓</div>Diseño completamente exclusivo</li>
+        <li><div class="fc">✓</div>Nombres personalizados</li>
+        <li><div class="fc">✓</div>Paleta de colores propia</li>
+        <li><div class="fc">✓</div>Fuentes personalizadas</li>
+        <li><div class="fc">✓</div>Invitados ilimitados</li>
+        <li><div class="fc">✓</div>Consultor dedicado</li>
+      </ul> -->
+      <a target="_blank" href="https://api.whatsapp.com/send/?phone=593996517199&text=Hola,%20deseo%20una%20invitaci%C3%B3n%20Signature%20para%20mi%20evento,%20mi%20nombre%20es:" class="btn-plan btn-outline-plan">Personalizar con plan Signature </a>
+    </div>
+    <div class="p-card featured">
+      <div class="p-badge">★ Mejor puntuado</div>
+      <div class="p-plan plan2">Platinum — Experiencia Destacada</div>
+      <div class="divmoneda"> <span class="p-currency cy2">$</span> <del class="redtacha"> <div class="p-price">79</div> </de></div>
+<div class="dct2">Spring SALE <div class="valordct2">$ 69,99</div></div>
+      <p class="p-desc">Un nivel superior donde la invitación cobra vida. <br>
+Platinum combina animación y emoción para crear una experiencia envolvente que impacta a cada invitado.</p>
+      <!-- <ul class="p-feats">
+        <li><div class="fc">✓</div>Todo lo del plan Essential</li>
+        <li><div class="fc">✓</div>Música de fondo premium</li>
+        <li><div class="fc">✓</div>Confirmación por WhatsApp</li>
+        <li><div class="fc">✓</div>Google Maps integrado</li>
+        <li><div class="fc">✓</div>Cuenta regresiva en vivo</li>
+        <li><div class="fc">✓</div>2 modos de diseño</li>
+        <li><div class="fc">✓</div>Soporte prioritario</li>
+      </ul> -->
+      <a target="_blank" href="https://api.whatsapp.com/send/?phone=593996517199&text=Hola,%20deseo%20una%20invitaci%C3%B3n%20Platinum%20para%20mi%20evento,%20mi%20nombre%20es:" class="btn-plan btn-filled-plan">Destacar con plan Platinum</a href="">
+    </div>
+    
+
+ <div class="p-card">
+      <div class="p-plan">Gold — Elegancia Esencial</div>
+    <div class="divmoneda"> <span class="p-currency">$</span> <del class="redtacha"> <div class="p-price">67</div> </de></div>
+<div class="dct">Spring SALE <div class="valordct">$ 49,99</div></div>
+      <p class="p-desc">Transmite estilo y delicadeza desde el primer vistazo. Gold sofisticada, práctica y visualmente atractiva</p>
+      <!-- <ul class="p-feats">
+        <li><div class="fc">✓</div>Diseño elegante basado en colección 2026</li>
+        <li><div class="fc">✓</div>RSVP básico</li>
+        <li><div class="fc">✓</div>1 modo de diseño</li>
+        <li><div class="fc">✓</div>Galería fotográfica</li>
+        <li><div class="fx">—</div><span style="color:var(--linen)">Música de fondo</span></li>
+        <li><div class="fx">—</div><span style="color:var(--linen)">Countdown personalizado</span></li>
+        <li><div class="fx">—</div><span style="color:var(--linen)">Personalización total</span></li>
+      </ul> -->
+      <a target="_blank" href="https://api.whatsapp.com/send/?phone=593996517199&text=Hola,%20deseo%20una%20invitaci%C3%B3n%20Gold%20para%20mi%20evento,%20mi%20nombre%20es:" class="btn-plan btn-outline-plan">Solicitar plan Gold</a hr>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ FEATURES TABLE ═══ -->
+<section class="tbl-section" id="caracteristicas">
+  <div class="tbl-head reveal">
+    <div class="sec-label" style="justify-content:center"><div class="sec-label-bar"></div><span class="sec-label-text">Comparativa</span><div class="sec-label-bar"></div></div>
+    <h2 class="sec-title" style="margin-top:14px">Características de<br>nuestros <em>planes</em></h2>
+  </div>
+  <div style="overflow-x:auto" class="reveal d2">
+    <table>
+      <thead>
+        <tr>
+          <th>Incluye:</th>
+          <th class="th-feat">Signature<br>· $99,99</th>
+          <th>Platinum <br>· $69,99</th>
+          <th>Gold <br> · $49,99</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Cuenta regresiva</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">✓</span></td><td><span class="ck">✓</span></td></tr>
+          <tr><td>Música de fondo</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">✓</span></td><td><span class="ck">✓</span></td></tr>
+                <tr><td>Itinerario</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">✓</span></td><td><span class="ck">✓</span></td></tr>
+        <tr><td>Ubicación Maps</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">✓</span></td><td><span class="ck">✓</span></td></tr>
+        <tr><td>Sugerir regalo</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">✓</span></td><td><span class="ck">✓</span></td></tr>
+        <tr><td>Compartir vía WhatsApp</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">✓</span></td><td><span class="ck">✓</span></td></tr>
+        <tr><td>Revisiones</td><td class="td-f"><span class="ck">10</span></td><td><span class="ck">5</span></td><td><span class="ck">3</span></td></tr>
+               <tr><td>Soporte prioritario</td><td class="td-f"><span class="ck">24/7</span></td><td><span class="ck">normal</span></td><td><span class="ck">normal</span></td></tr>
+
+        <tr><td>Agendar en Calendarios</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">✓</span></td><td><span class="ck">-</span></td></tr>
+        <tr><td>Galería de fotos</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">✓</span></td><td><span class="ck">-</span></td></tr>
+        <tr><td>Confirmación vía WhatsApp</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">✓</span></td><td><span class="ck">-</span></td></tr>
+
+                <tr><td>Animaciones premium</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">✓</span></td><td><span class="ck">-</span></td></tr>
+                <!-- <tr><td>50% dcto en tu próximo evento</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">✓</span></td><td><span class="ck">-</span></td></tr> -->
+
+                <tr><td>Apertura de sobre animado</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">-</span></td><td><span class="ck">-</span></td></tr>
+        <tr><td>Nombres y # pases en invitación</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">-</span></td><td><span class="ck">-</span></td></tr>
+                <tr><td>Botón de confirmación de asistencia</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">-</span></td><td><span class="ck">-</span></td></tr>
+
+
+        <tr><td>Contador de invitaciones + confirmación</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">-</span></td><td><span class="ck">-</span></td></tr>
+        <tr><td>Fecha límite de confirmación</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">-</span></td><td><span class="ck">-</span></td></tr>
+        
+        <tr><td>Sugerir hospedaje</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">-</span></td><td><span class="ck">-</span></td></tr>
+        <tr><td>Número de mesa</td><td class="td-f"><span class="ck">✓</span></td><td><span class="ck">-</span></td><td><span class="ck">-</span></td></tr>
+        
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══ PROCESS ═══ -->
+<section class="process" id="proceso">
+  <div class="reveal">
+    <div class="sec-label"><div class="sec-label-bar"></div><span class="sec-label-text">Cómo funciona</span></div>
+    <h2 class="sec-title" style="margin-top:14px">Tres pasos para crear tu<br><em> invitación inolvidable</em></h2>
+  </div>
+  <div class="process-grid reveal d2">
+    <div class="p-step">
+      <div class="p-num">01</div>
+      <div class="p-icon">✦</div>
+      <h3 class="p-step-title">Elige tu plan </h3>
+      <p class="p-step-desc">Un diseñador te ayudará a encontrar el estilo que refleje tu historia. Así, cada invitación se convierte en una primera impresión verdaderamente inolvidable</p>
+    </div>
+    <div class="p-step">
+      <div class="p-num">02</div>
+      <div class="p-icon">❧</div>
+      <h3 class="p-step-title">Personaliza cada detalle</h3>
+      <p class="p-step-desc">Nuestros diseñadores trabajan contigo para crear algo verdaderamente tuyo. Colores, tipografías, música, fotografías — todo a tu medida.</p>
+    </div>
+    <div class="p-step">
+      <div class="p-num">03</div>
+      <div class="p-icon">◆</div>
+      <h3 class="p-step-title">Comparte con tus invitados</h3>
+      <p class="p-step-desc">En 48 horas recibirás tu invitación lista. Gestiona las confirmaciones en tiempo real y celebra cada momento con quienes más quieres.</p>
+    </div>
+  </div>
+  <div><span  class="btn-ghost2">Elegir plan</span></div>
+</section>
+
+
+<!-- ═══ BONUS ═══ -->
+<!-- <section class="bonus">
+  <div class="bonus-inner reveal">
+    <div class="bonus-box">
+      <span class="bonus-free">Incluido gratis</span>
+      <div class="bonus-old">$30 valor</div>
+      <div class="bonus-price">$0</div>
+      <span class="bonus-plan-label">Plan Élite &amp; Deluxe</span>
+    </div>
+    <div class="bonus-content">
+      <div class="sec-label"><div class="sec-label-bar" style="background:var(--gold)"></div><span class="sec-label-text" style="color:var(--gold)">Servicio fotográfico</span></div>
+      <h2 class="bonus-title">¡Gratis! Captura el<br><em>momento mágico</em><br>de tu evento</h2>
+      <p class="bonus-body">Transforma la invitación en toda una experiencia interactiva. Tus invitados podrán compartir fotos en tiempo real creando un álbum colaborativo eterno.</p>
+      <div class="bonus-perks">
+        <div class="b-perk"><span class="b-perk-icon">✦</span><span>Muro de fotos en tiempo real donde todos los invitados publican sus capturas del evento</span></div>
+        <div class="b-perk"><span class="b-perk-icon">✦</span><span>Álbum fotográfico colaborativo con todas las fotos del día especial</span></div>
+        <div class="b-perk"><span class="b-perk-icon">✦</span><span>Descarga en alta resolución para guardar cada recuerdo para siempre</span></div>
+        <div class="b-perk"><span class="b-perk-icon">✦</span><span>Moderación de contenido para mantener la privacidad y elegancia del evento</span></div>
+      </div>
+      <a href="#precios" class="btn-bonus">Quiero este beneficio</a>
+    </div>
+  </div>
+</section> -->
+
+<!-- ═══ TESTIMONIALS ═══ -->
+<section class="testimonials" id="testimonios">
+  <div class="test-head reveal">
+    <div class="sec-label" style="justify-content:center"><div class="sec-label-bar"></div><span class="sec-label-text">Testimonios reales</span><div class="sec-label-bar"></div></div>
+    <h2 class="sec-title" style="margin-top:14px">Las historias que comparten<br>nuestros <em>clientes</em></h2>
+  </div>
+  <div class="test-wrapper">
+    <div class="test-track" id="tt">
+      <div class="t-card"><div class="t-stars">★★★★★</div><div class="t-quote">"</div><p class="t-text">Nuestros invitados quedaron completamente sorprendidos. La invitación superó todas nuestras expectativas — era como recibir una obra de arte digital.</p><div class="t-author"><div class="t-avatar">S</div><div><span class="t-name">Sofía &amp; Andrés M.</span><span class="t-event">Boda · Sevilla, 2024</span></div></div></div>
+      <div class="t-card"><div class="t-stars">★★★★★</div><div class="t-quote">"</div><p class="t-text">El proceso fue increíblemente sencillo y el resultado fue espectacular. El equipo entendió nuestra visión desde el primer momento.</p><div class="t-author"><div class="t-avatar">V</div><div><span class="t-name">Valentina &amp; Jorge R.</span><span class="t-event">Boda · Buenos Aires, 2024</span></div></div></div>
+      <div class="t-card"><div class="t-stars">★★★★★</div><div class="t-quote">"</div><p class="t-text">La función de RSVP fue perfecta. Pudimos gestionar las confirmaciones en tiempo real y saber exactamente quién asistía.</p><div class="t-author"><div class="t-avatar">C</div><div><span class="t-name">Camila &amp; Eduardo P.</span><span class="t-event">Boda · Ciudad de México, 2025</span></div></div></div>
+      <div class="t-card"><div class="t-stars">★★★★★</div><div class="t-quote">"</div><p class="t-text">Definitivamente vale cada centavo. La personalización del diseño Élite fue extraordinaria — nuestros colores, nuestra música, nuestra esencia.</p><div class="t-author"><div class="t-avatar">L</div><div><span class="t-name">Lucía &amp; Sebastián G.</span><span class="t-event">Boda · Barcelona, 2025</span></div></div></div>
+      <div class="t-card"><div class="t-stars">★★★★★</div><div class="t-quote">"</div><p class="t-text">El muro de fotos fue la sorpresa más bonita de la noche. Todos participaron y creamos el álbum más hermoso que pudimos imaginar.</p><div class="t-author"><div class="t-avatar">I</div><div><span class="t-name">Isabella &amp; Marco T.</span><span class="t-event">Boda · Lima, 2024</span></div></div></div>
+      <div class="t-card"><div class="t-stars">★★★★★</div><div class="t-quote">"</div><p class="t-text">Rápido, elegante y completamente diferente a todo lo visto. Nuestros invitados internacionales adoraron confirmar por WhatsApp.</p><div class="t-author"><div class="t-avatar">A</div><div><span class="t-name">Ana &amp; Miguel F.</span><span class="t-event">Boda · Bogotá, 2025</span></div></div></div>
+      <!-- Duplicate for infinite loop -->
+      <div class="t-card"><div class="t-stars">★★★★★</div><div class="t-quote">"</div><p class="t-text">Nuestros invitados quedaron completamente sorprendidos. La invitación superó todas nuestras expectativas — era como recibir una obra de arte digital.</p><div class="t-author"><div class="t-avatar">S</div><div><span class="t-name">Sofía &amp; Andrés M.</span><span class="t-event">Boda · Sevilla, 2024</span></div></div></div>
+      <div class="t-card"><div class="t-stars">★★★★★</div><div class="t-quote">"</div><p class="t-text">El proceso fue increíblemente sencillo y el resultado fue espectacular. El equipo entendió nuestra visión desde el primer momento.</p><div class="t-author"><div class="t-avatar">V</div><div><span class="t-name">Valentina &amp; Jorge R.</span><span class="t-event">Boda · Buenos Aires, 2024</span></div></div></div>
+      <div class="t-card"><div class="t-stars">★★★★★</div><div class="t-quote">"</div><p class="t-text">La función de RSVP fue perfecta. Pudimos gestionar las confirmaciones en tiempo real y saber exactamente quién asistía.</p><div class="t-author"><div class="t-avatar">C</div><div><span class="t-name">Camila &amp; Eduardo P.</span><span class="t-event">Boda · Ciudad de México, 2025</span></div></div></div>
+      <div class="t-card"><div class="t-stars">★★★★★</div><div class="t-quote">"</div><p class="t-text">Definitivamente vale cada centavo. La personalización del diseño Élite fue extraordinaria — nuestros colores, nuestra música, nuestra esencia.</p><div class="t-author"><div class="t-avatar">L</div><div><span class="t-name">Lucía &amp; Sebastián G.</span><span class="t-event">Boda · Barcelona, 2025</span></div></div></div>
+      <div class="t-card"><div class="t-stars">★★★★★</div><div class="t-quote">"</div><p class="t-text">El muro de fotos fue la sorpresa más bonita de la noche. Todos participaron y creamos el álbum más hermoso que pudimos imaginar.</p><div class="t-author"><div class="t-avatar">I</div><div><span class="t-name">Isabella &amp; Marco T.</span><span class="t-event">Boda · Lima, 2024</span></div></div></div>
+      <div class="t-card"><div class="t-stars">★★★★★</div><div class="t-quote">"</div><p class="t-text">Rápido, elegante y completamente diferente a todo lo visto. Nuestros invitados internacionales adoraron confirmar por WhatsApp.</p><div class="t-author"><div class="t-avatar">A</div><div><span class="t-name">Ana &amp; Miguel F.</span><span class="t-event">Boda · Bogotá, 2025</span></div></div></div>
+    </div>
+  </div>
+  <div><span  class="btn-ghost2 gh33">Seleccionar plan</span></div>
+</section>
+
+<!-- ═══ FAQ ═══ -->
+<section class="faq">
+  <div class="faq-inner">
+    <div class="reveal">
+      <div class="sec-label"><div class="sec-label-bar"></div><span class="sec-label-text">Preguntas frecuentes</span></div>
+      <h2 class="sec-title" style="margin-top:14px">Todo lo que<br>necesitas <em>saber</em></h2>
+      <p style="font-size:.78rem;font-weight:300;color:var(--graphite-soft);margin-top:18px;line-height:1.8">¿Tienes más dudas? Escríbenos y te respondemos en menos de una hora.</p>
+      <!-- <a href="mailto:hola@celebraconmigo.com" style="display:inline-flex;align-items:center;gap:8px;margin-top:24px;font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:var(--coral);text-decoration:none;font-weight:500;transition:gap .3s">Contactar al equipo <span>→</span></a> -->
+    </div>
+    <div class="reveal d2">
+      <div class="faq-item">
+        <div class="faq-q">¿Cuánto tiempo tarda la entrega?<div class="faq-tog">+</div></div>
+        <div class="faq-a"><div class="faq-a-inner">Una vez que ingresas o envías la información del evento, tu invitación estará lista en máximo 48 horas hábiles. Para planes Platinum y Signature con personalización y animaciones el plazo puede extenderse 1 o 2 días, siempre con  aprobación previa.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿Puedo hacer cambios después de publicar?<div class="faq-tog">+</div></div>
+        <div class="faq-a"><div class="faq-a-inner">Sí. Gold incluye 3 revisiones, Platinum 5 revisiones y Signature 10 revisiones.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿Cómo comparten la invitación?<div class="faq-tog">+</div></div>
+        <div class="faq-a"><div class="faq-a-inner">Recibirás un enlace único que puedes compartir vía WhatsApp, email o redes sociales. También si deseas incluimos un código QR descargable perfecto para invitaciones físicas.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿Cuánto tiempo estará activa la invitación?<div class="faq-tog">+</div></div>
+        <div class="faq-a"><div class="faq-a-inner">Tu invitación permanece activa durante 1 año. Pasado ese período, puedes renovar por una tarifa reducida para mantener acceso al álbum y confirmaciones.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿El precio incluye impuestos?<div class="faq-tog">+</div></div>
+        <div class="faq-a"><div class="faq-a-inner">Los precios son en USD sin impuestos locales. El total final se calculará en el proceso de pago según tu país. Aceptamos tarjetas de crédito, débito, transferencias locales, remesas internacionales, apps de pagos dependiendo tu país, cryptos-USDT  </div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿Puedo ver un demo antes de contratar?<div class="faq-tog">+</div></div>
+        <div class="faq-a"><div class="faq-a-inner">Por supuesto. Explora la colección con ejemplos completos. También podemos enviarte una demo con tus datos en menos de 24 horas — sin costo alguno.</div></div>
+      </div>
+    </div>
+  </div>
+
+</section>
+    
+
+<!-- ═══ CTA ═══ -->
+<section class="cta-section">
+  <span class="cta-eyebrow reveal">Empieza hoy mismo</span>
+  <h2 class="cta-title reveal d1">Tu gran día merece<br>ser <em>celebrado</em> a lo grande</h2>
+  <p class="cta-sub reveal d2">Únete a más de 1K clientes que eligieron <strong>celebraconmigo.net </strong>para hacer de su invitación la primera experiencia memorable de su evento.</p>
+  <div class="cta-acts reveal d3">
+    <a href="#precios" class="btn-cta-white">Ver planes</a>
+    <a href="#coleccion" class="btn-cta-border">Explorar colección 2026</a>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <!-- <div class="f-inner">
+    <div class="f-logo-area">
+      <a href="#" class="logo" style="text-decoration:none">
+        <span class="logo-celebra">celebra</span><span class="logo-conmigo">conmigo.net</span><span class="logo-star">✦</span>
+      </a>
+      <div class="f-tagline-footer">Momentos que se celebran juntos</div>
+      <p class="f-desc">Invitaciones premium para bodas y eventos de alta distinción desde 2019.</p>
+      <div class="f-social">
+        <a href="#" class="f-soc">in</a>
+        <a href="#" class="f-soc">ig</a>
+        <a href="#" class="f-soc">fb</a>
+        <a href="#" class="f-soc">pi</a>
+      </div>
+    </div>
+    <div>
+      <div class="f-col-title">Colección</div>
+      <ul class="f-links">
+        <li><a href="#">Bodas clásicas</a></li>
+        <li><a href="#">Bodas modernas</a></li>
+        <li><a href="#">Eventos sociales</a></li>
+        <li><a href="#">Diseños exclusivos</a></li>
+        <li><a href="#">Save the Date</a></li> -->
+      <!-- </ul>
+    </div>
+    <div>
+      <div class="f-col-title">Servicios</div>
+      <ul class="f-links">
+        <li><a href="#">RSVP digital</a></li>
+        <li><a href="#">Galería fotográfica</a></li>
+        <li><a href="#">Cuenta regresiva</a></li>
+        <li><a href="#">Muro de fotos</a></li>
+        <li><a href="#">Consultoría de diseño</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="f-col-title">Empresa</div>
+      <ul class="f-links">
+        <li><a href="#">Nuestra historia</a></li>
+        <li><a href="#">Blog de bodas</a></li>
+        <li><a href="#">Trabaja con nosotros</a></li>
+        <li><a href="#">Prensa</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </div> -->
+  <!-- <div class="f-bottom">
+    <span class="f-copy">© 2026 celebraconmigo.net Todos los derechos reservados.</span>
+    <div class="f-legal">
+      <a href="#">Privacidad</a>
+      <a href="#">Términos</a>
+      <a href="#">Cookies</a>
+    </div>
+  </div> -->
+  <span> © 2026</span>
+    <span>Desarrollado con ❤ <a class="afooter" href="https://celebraconmigo.net/" target="_blank" rel="noopener noreferrer">CelebraConmigo.net</a> </span>
+
+</footer>
+
+
+<!-- chat -->
+         <div id="cardnegocionet" class="cardnegocionet tripimg">
+               <!-- <span class="mw2"></span> -->
+               <span class="unowhatnet" >1</span> 
+         </div>
+
+ <div id="cardmenunet" class="cardmenunet">
+    
+      <div class="hul26">
+    
+            <div class="hwhat">
+                <div class="whatlogo">
+                    <span class="lw"> </span> 
+                    <div class="lww">
+                        <span class="wtext">Mila</span> 
+                    
+                        <small class="smallw" >online</small> 
+        
+                    </div>                          
+                
+        
+                    <!-- <a href="https://whatsbulksender.com/chat-multiagente" target="_blank" rel="noopener noreferrer"><sub class="smallwbs">by WBS</sub></a> -->
+                </div>
+                <div class="cerra"><span id="cerrarchatnet" class="icon-x w"> </span></div>
+            </div>  <!--  end hwhat-->
+       
+    
+         <div class="whatmbien">
+                <div class="whatmesage">
+            
+                    <div>
+                       
+                        ¡Hola! Soy Mila😊 <br>
+Ya viste nuestros planes, ahora cuéntame: <br>
+ <strong>¿Cuál deseas elegir?</strong> <br>
+✨ Gold<br>
+💫 Platinum<br>
+👑 Signature<br>
+<br>
+Estoy para asesorarte con el plan ideal según tu evento. 
+                    </div>
+          
+                    <div>
+                                                    </div>
+        
+        
+                    
+            
+        
+                
+                  
+                    
+                    
+                </div>
+                <!-- whatmesage -->
+        
+                <div class="whaterror" id="whaterror">
+        
+                </div>
+            
+    
+        
+                 <!-- end newchatweb -->
+    
+    
+                        <div class="insertarmensaje">
+                
+                        
+                
+                            <textarea id="edad" name="" rows="1" placeholder="Escribe un mensaje" required></textarea>
+                
+                
+                            <!-- <input type="text" name="edad" id="edad" placeholder="Escribe un mensaje..." required=""> -->
+                
+                            <div class="divsend">
+                
+                                <button id="enviarwa2" type="submit" onclick="obtenerdatos()" class="enviarmensajewa">
+                                    <i class="icon-send"></i>
+                                </button>
+                
+                
+                
+                                
+                            </div>
+                
+                    </div>
+                    <!-- end insertarmensaje -->
+                  
+         </div>
+         <!-- end whatmbien -->
+
+        </div>
+        <!-- end hul26 -->
+
+   </div>
+ <!-- end cardmenu -->
+
+
+
+      <div  id="exit" class="exit-intent-popup">
+                                  <div class="newsletter">
+                                 <div class="newcerrar">
+
+                                      <div class="unopop">
+                                                <h3>¡Por tiempo limitado!</h3>
+
+                                              <img class="popimg" src="img/boda-jammo-Vane-2-con-btn.png" alt="" srcset="">
+                                              <p class="unop">Obtén un bono de $10 Dcto </p>
+                                              <p>*Aplica para planes Platinum y Signature</p>
+
+                                        </div>
+                                  <!--end  unopop -->
+                                
+
+                                            <div class="dospop">
+
+                                        <p class="unon">¡NO, te lo puedes perder!</p>
+                                        <!-- <p class="unon2">Esta oferta no volvera:</p> -->
+                                      <!-- <p>Antes <del>$39,99</del> ahora <strong>$19,99</strong></p> -->
+
+                                        <div class="btnpop">
+                                            <a target="_blank" class="masv" href="https://api.whatsapp.com/send?phone=593996517199&text=Hola!%20tengo%20un%20bono%20de%20$10%20deseo%20activar%20en%20mi%20plan"> Obtener bono $10</a>
+                                        </div>
+                                            </div>
+                                            <!-- end dospop -->
+                        
+                        
+                                          <span class="close">x</span>
+
+                          </div>
+                        <!--end  newcerrar -->
+                        </div>
+                        <!-- end newsletter -->
+                    </div>
+                          <!--  end exit-intent-popup -->           
 
 </body>
+           
+<script src="clb.js"></script>
+<script src="precios.js"></script>
 </html>

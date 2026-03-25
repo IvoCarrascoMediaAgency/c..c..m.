@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?keatyp');
+  src:  url('fonts/icomoon.eot?keatyp#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?keatyp') format('truetype'),
+    url('fonts/icomoon.woff?keatyp') format('woff'),
+    url('fonts/icomoon.svg?keatyp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-send:before {
+  content: "\e900";
+}
+.icon-mas:before {
+  content: "\e901";
+}
+.icon-docu:before {
+  content: "\e926";
+}
+.icon-carrito:before {
+  content: "\e93a";
+}
+.icon-dollar:before {
+  content: "\e93b";
+}
+.icon-tarjetacredito:before {
+  content: "\e93f";
+}
+.icon-telefono:before {
+  content: "\e942";
+}
+.icon-listadecontactos:before {
+  content: "\e944";
+}
+.icon-mail:before {
+  content: "\e945";
+}
+.icon-programar:before {
+  content: "\e953";
+}
+.icon-filtro:before {
+  content: "\e975";
+}
+.icon-envios:before {
+  content: "\e9a5";
+}
+.icon-borrar:before {
+  content: "\e9ac";
+}
+.icon-negocio:before {
+  content: "\e9ae";
+}
+.icon-poder:before {
+  content: "\e9b5";
+}
+.icon-informe:before {
+  content: "\e9b8";
+}
+.icon-mundial:before {
+  content: "\e9ca";
+}
+.icon-corazon:before {
+  content: "\e9da";
+}
+.icon-x:before {
+  content: "\ea0f";
+}
+.icon-facebook:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-chatbot:before {
+  content: "\eac6";
+}
