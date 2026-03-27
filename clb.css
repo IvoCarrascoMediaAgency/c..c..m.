@@ -1849,5 +1849,10 @@ img.popimg {
     cursor: pointer;
 }
 
+img.imglogo2 {
+    width: 100%;
+    max-width: 200px;
 
+    margin: 0 auto;
+}
 

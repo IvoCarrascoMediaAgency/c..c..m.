@@ -1375,3 +1375,10 @@ padding: 40px 25px;
     text-align: center;
     margin: 20px 0;
 }
+
+  img.imglogo2 {
+    width: 100%;
+    max-width: 200px;
+
+    margin: 0 auto;
+}

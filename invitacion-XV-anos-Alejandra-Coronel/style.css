@@ -1398,10 +1398,14 @@ padding: 40px 25px;
 
 }
 
+.ceremoniaflores{position: relative;  margin-top: 30px;}
+
 .florestra{
   position: absolute;
-  width: 150px;
-    top: -60px;
+    width: 150px;
+    top: -150px;
+    left: 0;
+   
 }
 
 .ceremonia2 h2{
@@ -1490,5 +1494,12 @@ padding: 40px 25px;
 .btnofer{
     display: grid;
     grid-template-columns: auto auto;
+}
+
+  img.imglogo2 {
+    width: 100%;
+    max-width: 200px;
+
+    margin: 0 auto;
 }
 
