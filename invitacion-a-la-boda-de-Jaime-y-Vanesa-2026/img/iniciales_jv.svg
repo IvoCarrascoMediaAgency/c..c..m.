@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Círculo blanco de fondo -->
+  <circle cx="100" cy="100" r="95" fill="white" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Clip path para recortar los rectángulos en forma de círculo -->
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="100" cy="100" r="90"/>
+    </clipPath>
+  </defs>
+  
+  <g clip-path="url(#circleClip)">
+    <!-- Fondo izquierdo (blanco) -->
+    <path d="M 100 10 A 90 90 0 0 0 100 190 L 100 100 Z" fill="white"/>
+    
+    <!-- Fondo derecho (blanco) -->
+    <path d="M 100 10 A 90 90 0 0 1 100 190 L 100 100 Z" fill="white"/>
+  </g>
+  
+  <!-- Letra V en el lado izquierdo -->
+  <text x="70" y="105" font-family="serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#2C2C2C">V</text>
+  
+  <!-- Línea divisoria vertical -->
+  <line x1="100" y1="50" x2="100" y2="140" stroke="#2C2C2C" stroke-width="2"/>
+  
+  <!-- Letra J en el lado derecho -->
+  <text x="130" y="105" font-family="serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#2C2C2C">J</text>
+  
+  <!-- Fecha debajo centrada -->
+  <text x="100" y="165" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#666666" letter-spacing="1">13 · 06 · 2026</text>
+</svg>
