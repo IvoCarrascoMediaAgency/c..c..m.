@@ -803,6 +803,7 @@ img.fotosnuv {
     text-decoration: none;
     transition: all 0.3s ease;
     box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, .8);
+    width: 100%;
 }
 .img5{
   width: 100%;
